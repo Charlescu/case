@@ -1,0 +1,155 @@
+body {
+    background-color: #2F77E1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    /*width: 100%;*/
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    /*margin-top: 2.3rem;*/
+}
+
+.center_box {
+    padding: 0 0.45rem;
+}
+
+.input_box {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 0.6rem;
+    padding: 0 0.46rem;
+    box-sizing: border-box;
+    /*margin-top: 1.53rem;*/
+}
+
+.account_box, .password_box {
+    font-size: 0.24rem;
+    color: #B7B7B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.44rem 0;
+}
+
+.radio_box {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+.account_box {
+    border-bottom: 0.01rem solid #D8D8D8;
+}
+
+.password_box {
+    padding-top: 0.44rem;
+}
+
+.account_character {
+    display: flex;
+    align-items: center;
+}
+
+.password {
+    font-size: 0.22rem;
+    color: #2d73d9;
+}
+
+.get_code_btn{
+    width:1.5rem;
+    height:0.39rem;
+    font-size:0.18rem;
+    color:rgba(255,255,255,1);
+    background:rgba(47,119,225,1);
+    border-radius:0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point1 {
+    font-size: 0.5rem;
+    color: #7AC926;
+    margin-right: 0.14rem;
+}
+
+.point2 {
+    font-size: 0.5rem;
+    color: #40A7FF;
+    margin-right: 0.14rem;
+}
+
+.icon-gaiicon- ,.icon-sanjiao,.icon-mima{
+    width: 0.44rem;
+    height: 0.44rem;
+    font-size: 0.2rem;
+    color: #2d73d9;
+    border: 1px solid #E3E3E3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agreement_hint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.84rem;
+    margin-top: 0.26rem;
+}
+
+.agreement_box {
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.hint {
+    font-size: 0.24rem;
+    color: #8BFF10;
+}
+
+.registered {
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+
+.login_btn {
+    width: 3rem;
+    height: 1rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0.01rem 0.05rem 0.27rem rgba(210, 210, 210, 0.75);
+    border-radius: 0.6rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.login {
+    font-size: 0.26rem;
+    color: #000;
+    text-align: center;
+    margin-top: 0.3rem;
+
+}
+
+.sign_in {
+    font-size: 0.16rem;
+    color: #8E96A5;
+    text-align: center;
+    margin-top: -0.17rem;
+}

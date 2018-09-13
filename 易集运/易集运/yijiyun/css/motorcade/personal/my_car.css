@@ -1,0 +1,62 @@
+
+.banner_box{
+    width:100%;
+    height:0.8rem;
+    background:rgba(242,242,242,1);
+    padding: 0.1rem 0.28rem;
+    box-sizing: border-box;
+}
+
+.banner_input{
+    height: 0.6rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.25rem;
+
+}
+.banner_input input{
+    border: 0;
+    outline: none;
+}
+
+.content_item{
+    padding: 0.39rem 0.25rem;
+}
+.item_list{
+    height: 2.02rem;
+    background: url("../../../images/vehicle@2x.png") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 0.45rem;
+}
+.list_content{
+    margin-left: 0.93rem;
+}
+.icon-cha {
+    font-size: 0.94rem;
+    color: #FFFFFF;
+}
+.list_title{
+    font-size: 0.3rem;
+    color: #1E1E1E;
+}
+.list_name,.car_num,.time{
+    font-size: 0.24rem;
+    color: #1E1E1E;
+}
+.bottom_btn {
+    width: 100%;
+    height: 0.98rem;
+    font-size: 0.28rem;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(47, 119, 225, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>绑定信息</title>
+
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_750641_67yig76wmdj.css">
+    <link rel="stylesheet" href="css/init.css">
+    <link rel="stylesheet" href="css/bind_info.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="images/bro.png" alt="">
+    </div>
+    <div class="content_item">
+        <div class="item_list">
+            <div class="iconfont icon-hetong"></div>
+            <div class="input_box"><input type="number" placeholder="请输入合同编号" id="num"></div>
+        </div>
+        <div class="item_list">
+            <div class="iconfont icon-ren"></div>
+            <div class="input_box"><input type="text" placeholder="请输入姓名" id="username"></div>
+        </div>
+        <div class="item_list">
+            <div class="iconfont icon-shouji1"></div>
+            <div class="input_box"><input type="number" placeholder="请输入手机号" id="tel"></div>
+        </div>
+    </div>
+
+    <div class="bottom_btn">确定</div>
+    <div class="hint_info_box">
+        <div class="hint_title">注意：</div>
+        <div>若忘记合同编号请<span class="hint_info">联系客服</span>，每个合同编号最多只能绑定2个账户,
+            若有多个合同编号，先绑定一个，其他的在个人中心中进行绑定。
+        </div>
+    </div>
+</div>
+<div class="mask_box">
+    <div class="popup_box">
+        <div class="iconfont icon-cha"></div>
+        <div class="icon_box"><img src="images/icon1.png" alt=""></div>
+        <div class="popup_content">您输入的合同编号不存在
+            若忘记请联系客服。
+        </div>
+        <div class="popup_btn">联系客服</div>
+    </div>
+</div>
+<script src="js/fontsize.js"></script>
+<script src="js/jquery-2.1.0.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.mask_box').hide();
+        $('#num').blur(function () {
+            var num = $('#num').val();
+            if (num == '') {
+                $('.mask_box').show();
+            }
+            // $.ajax({
+            //     type: "post",
+            //     url: "www",
+            //     data: {
+            //         num: num
+            //     },
+            //     success: function (data) {
+            //         alert(data);
+            //         if(data.data.code==1){
+            //
+            //         }else {
+            //             $('.mask_box').show();
+            //         }
+            //     },
+            //     dataType: "json" // json 格式的返回值
+            // });
+
+        });
+        $('.bottom_btn').click(function () {
+            var num = $('#num').val();
+            var username = $('#username').val();
+            var tel = $('#tel').val();
+            if (num == "") {
+                $('.mask_box').show();
+            }
+        })
+        $.ajax({
+            type: "post",
+            url: "你的地址",
+            data: $("form").serialize(),
+            async: true,
+            success: function (data) {
+                alert(data);
+            },
+            dataType: "json" // json 格式的返回值
+        });
+
+        // $('#number').click(function () {
+        //     $('.mask_box').show();
+        // });
+        $('.icon-cha').click(function () {
+            $('.mask_box').hide();
+        });
+    })
+
+</script>
+</body>
+</html>

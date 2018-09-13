@@ -1,0 +1,115 @@
+body{
+    background-color: #F8F8F8;
+}
+.container{
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 0.26rem;
+    color: #808080;
+}
+.item_list{
+    /*width:690px;*/
+    /*height:300px;*/
+    background:rgba(255,255,255,1);
+    border-radius:0.2rem;
+    box-shadow:0.02rem 0.16rem 0.1rem rgba(0,0,0,0.06);
+    text-align: center;
+    padding: 0.27rem 0;
+    margin-top: 0.2rem;
+}
+.list_title{
+    font-size: 0.28rem;
+    color: #4E4E4E;
+    /*margin-top: 0.27rem;*/
+}
+.list_add{
+    font-size: 0.3rem;
+    color: #0C3040;
+    margin-top: 0.45rem;
+}
+.list_time{
+    font-size: 0.24rem;
+    color: #4E4E4E;
+    margin-top: 0.25rem;
+}
+.list_btn{
+    width:3rem;
+    height:0.6rem;
+    font-size:0.3rem;
+    color:rgba(255,255,255,1);
+    background:rgba(0,89,130,1);
+    border-radius:0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 0.37rem;
+}
+
+
+/* 弹窗 */
+.mask_box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: RGBA(0, 0, 0, 0.6);
+    z-index: 200;
+}
+.popup_box{
+    width:5rem;
+    height:4rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.08rem;
+    position: relative;
+    top:2.61rem;
+    left: 1.3rem;
+    padding-top: 0.36rem;
+}
+.icon-cha{
+    font-size: 0.54rem;
+    color: #ED4545;
+    position: absolute;
+    top: -0.4rem;
+    right:-0.27rem;
+}
+.popup_title{
+    font-size: 0.36rem;
+    color: #000000;
+    text-align: center;
+}
+.popup_content{
+    font-size: 0.3rem;
+    color: #000;
+    padding: 0 0.57rem;
+}
+.popup_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.popup_btn{
+    width: 4.17rem;
+    height: 1.03rem;
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    background-color: #005982;
+    border-radius: 0.52rem;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0.46rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.discount_price{
+    width: 100%;
+    font-size: 0.24rem;
+    color: #BFBFBF;
+    text-align: center;
+}

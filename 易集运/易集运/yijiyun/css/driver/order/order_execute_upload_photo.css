@@ -1,0 +1,106 @@
+
+.banner_box {
+    height: 0.88rem;
+    background-color: #1B61C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.charge_btn {
+    width: 5.16rem;
+    height: 0.51rem;
+    position: relative;
+    background-color: #2B67FF;
+    border-radius: 0.26rem;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.execute_btn {
+    width: 2.52rem;
+    height: 0.41rem;
+    font-size: 0.22rem;
+    color: #2B67FF;
+    background-color: #fff;
+    border-radius: 0.21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0.06rem;
+}
+
+.detail_btn {
+    width: 2.52rem;
+    height: 0.41rem;
+    font-size: 0.22rem;
+    color: #589FFF;
+    /*background-color: #fff;*/
+    border-radius: 0.21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0.06rem;
+}
+
+.item_list {
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+
+.content_item .item_list:last-child {
+    border-top: 1px solid #F2F2F2;
+}
+
+.upload_box {
+    height: 3.23rem;
+    font-size: 0.24rem;
+    color: #B8B8B8;
+    border: 1px solid #EEEEEE;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.44rem;
+}
+
+.icon-icon-photo {
+    font-size: 0.99rem;
+    color: #E6E6E6;
+}
+
+.content_box {
+    display: flex;
+    align-items: center;
+}
+
+.point1 {
+    font-size: 0.5rem;
+    color: #2F77E1;
+    margin-right: 0.14rem;
+}
+
+.input_box input {
+    border: 0;
+    outline: none;
+    color: #CBCBCB;
+    margin-left: 0.17rem;
+}
+
+.bottom_btn {
+    width: 100%;
+    height: 0.98rem;
+    font-size: 0.3rem;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(47, 119, 225, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.05rem;
+    position: fixed;
+    bottom: 0;
+}

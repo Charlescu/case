@@ -1,0 +1,34 @@
+
+.time{
+    font-size: 0.34rem;
+    font-weight: bold;
+    color: black;
+    padding: 0.39rem 0;
+    padding-left:0.25rem ;
+}
+.message_type{
+    font-size: 0.28rem;
+    color: #2F77E1;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 0.39rem 0;
+    padding-left:0.25rem ;
+}
+.message_detail{
+    font-size: 0.28rem;
+    color: black;
+    padding: 0.14rem 0;
+    padding-left:0.25rem ;
+}
+.bottom_btn {
+    width: 100%;
+    height: 0.98rem;
+    font-size: 0.28rem;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(47, 119, 225, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}

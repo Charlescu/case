@@ -1,0 +1,47 @@
+body{
+    background-color: #F6F6F6;
+}
+.banner_box{
+    width: 100%;
+    height: 4.73rem;
+    position: relative;
+}
+.banner_box img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner_character{
+    font-size: 0.48rem;
+    font-weight: bold;
+    color: #FAF796;
+    position: absolute;
+    top: 2.83rem;
+    left: 2.82rem;
+}
+.content_item{
+    width: 7.1rem;
+    padding: 0.4rem 0.45rem;
+    background-color: #FFFFFF;
+    border-radius:0.1rem;
+    box-shadow:0.1rem 0.16rem 0.1rem rgba(0,0,0,0.04);
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.list_title_box{
+    font-size: 0.3rem;
+    color: #080802;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 0 0.1rem 0.25rem 0.1rem;
+}
+
+.item_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.2rem;
+    margin-top: 0.31rem;
+}

@@ -1,0 +1,97 @@
+body {
+    background-color: #fff;
+}
+
+.banner_box {
+    height: 3.06rem;
+    background-color: #2F77E1;
+    overflow: hidden;
+}
+
+.head_portrait {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+
+.head_portrait img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    font-size: 0.3rem;
+    color: #FEFEFE;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.item_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.num {
+    font-size: 0.6rem;
+    color: #2F77E1;
+}
+
+.list_title {
+    font-size: 0.24rem;
+    color: black;
+}
+
+.line {
+    font-size: 0.4rem;
+    color: #D1D1D1;
+}
+
+.item_list1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+    margin-top: 0.3rem;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.icon-qianbao, .icon-chexingluntan, .icon-jilu,
+.icon-xiaoxi, .icon-wodeqiaquan, .icon-shezhi {
+    font-size: 0.5rem;
+}
+
+.item_box {
+    width: 33%;
+}
+
+.item {
+    height: 2.11rem;
+    border-right: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom_information {
+    font-size: 0.24rem;
+    color: #999999;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.icon-xiazai46 {
+    margin-right: 0.15rem;
+}
+

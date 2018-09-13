@@ -1,0 +1,129 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.logo{
+    width: 4.41rem;
+    height: 1.23rem;
+    margin:  0 auto;
+    margin-top: 1.23rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.content_item{
+    padding: 0 1.4rem;
+    margin-top: 1.42rem;
+}
+.item_list{
+    color: #7A797B;
+    display: flex;
+    /*align-items: center;*/
+    margin-top: 0.4rem;
+
+}
+.input_box{
+    border-bottom: 1px solid #959595;
+    margin-left: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.input_box input{
+    font-size: 0.28rem;
+    color: #B5B5B5;
+    width: 4rem;
+    border: 0;
+    outline: none;
+    background: none;
+}
+.bottom_btn{
+    width:4rem;
+    height:0.76rem;
+    font-size: 0.32rem;
+    color: #373232;
+    border-radius:0.38rem;
+    background: linear-gradient(to left,#F8DE77,#F6EF7B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.66rem;
+}
+.hint_info_box{
+    font-size: 0.24rem;
+    color: #787878;
+    padding: 1.56rem 0.29rem 0.67rem 0.29rem;
+}
+.hint_title{
+    font-size: 0.3rem;
+    text-align: center;
+}
+.hint_info{
+    color: #D0D0D0;
+}
+.icon-shouji{
+    /*font-size: 0.4rem;*/
+}
+
+/* 弹窗 */
+.mask_box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: RGBA(0, 0, 0, 0.6);
+}
+.popup_box{
+    width:5rem;
+    height:4.98rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.08rem;
+    position: relative;
+    top:2.31rem;
+    left: 1.25rem;
+    padding-top: 0.25rem;
+    box-sizing: border-box;
+}
+.icon-cha{
+    font-size: 0.54rem;
+    color: #ED4545;
+    position: absolute;
+    top: -0.4rem;
+    right:-0.27rem;
+
+}
+.icon_box{
+    width: 3.41rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+.icon_box img{
+    width: 100%;
+    height: 100%;
+}
+.popup_content{
+    font-size: 0.3rem;
+    color: #000000;
+    text-align: center;
+    padding: 0 0.7rem;
+    margin-top: 0.53rem;
+}
+.popup_btn{
+    width: 100%;
+    height: 0.93rem;
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    background-color: #005982;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

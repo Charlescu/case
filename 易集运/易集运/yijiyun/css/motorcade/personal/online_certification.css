@@ -1,0 +1,46 @@
+.content_item{
+    overflow: hidden;
+    border-bottom: 1px solid #F3F3F3;
+    padding-bottom: 0.32rem;
+}
+.item_list{
+    display: flex;
+    align-items: center;
+    margin-top: 0.47rem;
+    padding: 0 0.25rem;
+}
+.icon-che-tianchong,.icon-weibiaoti-_huabanfuben,.icon-dianhua,.icon-weizhi{
+    font-size: 0.24rem;
+    color: #F3F3F3;
+    margin-right: 0.18rem;
+}
+.list_title{
+    font-size: 0.28rem;
+    color: black;
+}
+.list_input{
+
+}
+.list_input input{
+    border: 0;
+    outline: none;
+}
+
+.upload_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.25rem 0.38rem;
+}
+
+.photo_box{
+    width:3.26rem;
+    height:1.78rem;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E6E6E6;
+    margin-bottom: 0.14rem;
+}

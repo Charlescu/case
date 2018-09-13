@@ -1,0 +1,225 @@
+
+.banner_box {
+    height: 0.88rem;
+    background-color: #1B61C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.charge_btn {
+    width: 5.16rem;
+    height: 0.51rem;
+    position: relative;
+    background-color: #2B67FF;
+    border-radius: 0.26rem;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.execute_btn {
+    width: 2.52rem;
+    height: 0.41rem;
+    font-size: 0.22rem;
+    color: #2B67FF;
+    background-color: #fff;
+    border-radius: 0.21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0.06rem;
+}
+
+.detail_btn {
+    width: 2.52rem;
+    height: 0.41rem;
+    font-size: 0.22rem;
+    color: #589FFF;
+    /*background-color: #fff;*/
+    border-radius: 0.21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0.06rem;
+}
+
+.content_item {
+    margin-top: 0.6rem;
+}
+
+.item_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 0.8rem 0 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.content {
+    width: 2rem;
+    font-size: 0.24rem;
+    color: #1B61C9;
+}
+
+.circle_box {
+    width: 0.4rem;
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.small_circle {
+    width: 0.11rem;
+    height: 0.11rem;
+    background: rgba(3, 128, 255, 1);
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0rem rgba(0, 54, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.item_list:last-child .small_circle {
+    width: 0.11rem;
+    height: 0.11rem;
+    background: RGBA(153, 153, 153, 1);
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0rem rgba(0, 54, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.big_circle:after {
+    content: "";
+    width: 0.02rem;
+    height: 1rem;
+    background-color: #F2F2F2;
+    position: absolute;
+    top: 0.1rem;
+    left: 50%;
+    margin-left: -0.01rem;
+    z-index: -10;
+}
+
+.content_item .item_list:last-child .circle_box .big_circle:after {
+    content: "";
+    width: 0rem;
+    height: 0rem;
+}
+
+.content_item .item_list:last-child .time, .item_list:last-child .content {
+    color: #999999;
+}
+
+.middle_circle {
+    width: 0.24rem;
+    height: 0.24rem;
+    background: rgba(3, 128, 255, 0.32);
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0rem rgba(0, 54, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_list:last-child .middle_circle {
+    width: 0.24rem;
+    height: 0.24rem;
+    background: RGBA(153, 153, 153, 0.32);
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0rem rgba(0, 54, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big_circle {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: rgba(3, 128, 255, 0.19);
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0rem rgba(0, 54, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_list:last-child .big_circle {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: RGBA(153, 153, 153, 0.19);
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 0rem rgba(0, 54, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    font-size: 0.24rem;
+    color: #1B61C9;
+}
+
+/* 订单执行审查 */
+.hint {
+    font-size: 0.24rem;
+    color: #2F77E1;
+    margin-top: 1.51rem;
+    text-align: center;
+}
+
+/* 订单执行指派 */
+.content_banner {
+    display: flex;
+    padding: 0.33rem 0;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.content_banner .banner_item {
+    width: 25%;
+    text-align: center;
+}
+.content_banner .banner_item .banner_line {
+    float: right;
+}
+
+.banner_character {
+    font-size: 0.24rem;
+    color: #000;
+}
+.content_list{
+
+}
+.list_item {
+    display: flex;
+    margin-top: 0.32rem;
+
+}
+
+.list_item div {
+    width: 25%;
+    text-align: center;
+}
+.bottom_btn{
+    width: 100%;
+    height:0.98rem;
+    font-size: 0.28rem;
+    color:rgba(255,255,255,1);
+    background:rgba(47,119,225,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}

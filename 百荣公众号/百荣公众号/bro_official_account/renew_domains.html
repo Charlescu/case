@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>域名续费</title>
+
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_750641_67yig76wmdj.css">
+    <link rel="stylesheet" href="css/init.css">
+    <link rel="stylesheet" href="css/renew_domains.css">
+</head>
+<body>
+<div class="container">
+    <div class="title">我的域名</div>
+    <div class="item_list">
+        <div class="list_title">小牛牛英语公众号</div>
+        <div class="list_add">https://shop.zbj.com/12225860/sid-897522.</div>
+        <div class="list_time">到期时间：2018年6月30日</div>
+        <div class="list_btn">去续费</div>
+    </div>
+</div>
+<div class="mask_box">
+    <div class="popup_box">
+        <div class="iconfont icon-cha"></div>
+        <div class="popup_title">续费时长</div>
+        <div class="popup_content">
+            <div class="popup_input">
+                <div>
+                    <span><input type="radio"></span>
+                    <span>一年</span>
+                </div>
+                <div>
+                    <span><input type="radio"></span>
+                    <span>一年</span>
+                    <span>(9折)</span>
+                </div>
+            </div>
+            <div class="popup_input">
+                <div>
+                    <span><input type="radio"></span>
+                    <span>一年</span>
+                </div>
+                <div>
+                    <span><input type="radio"></span>
+                    <span>一年</span>
+                    <span>(9折)</span>
+                </div>
+            </div>
+        </div>
+        <div class="popup_btn">
+            <div>确定续费（￥2000）</div>
+            <div class="discount_price">原价￥3000</div>
+        </div>
+    </div>
+</div>
+<script src="js/fontsize.js"></script>
+<script src="js/jquery-2.1.0.js"></script>
+<script>
+$(document).ready(function () {
+    $('.mask_box').hide();
+    $('.list_btn').click(function () {
+        $('.mask_box').show();
+    });
+    $('.icon-cha').click(function () {
+        $('.mask_box').hide();
+    });
+})
+
+</script>
+</body>
+</html>

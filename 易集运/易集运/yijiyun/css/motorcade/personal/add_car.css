@@ -1,0 +1,44 @@
+.content_item{
+    padding: 0 1.07rem;
+}
+.content_title{
+    font-size: 0.4rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 1.17rem;
+}
+.print_box{
+    display: flex;
+    margin-top: 0.4rem;
+}
+.box{
+    width:0.78rem;
+    height:0.78rem;
+    border:1px solid rgba(210,210,210,1);
+    border-radius:0.06rem;
+    margin-right: 0.12rem;
+}
+.box input{
+    width:0.78rem;
+    height:0.78rem;
+    border:none;
+    outline: none;
+}
+.hint{
+    font-size: 0.24rem;
+    color: #848484;
+    text-align: center;
+    margin-top: 0.41rem;
+}
+.bottom_btn{
+    width:100%;
+    height:0.79rem;
+    font-size:0.3rem;
+    color:rgba(255,255,255,1);
+    background:rgba(47,119,225,1);
+    border-radius:0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.05rem;
+}
