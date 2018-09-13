@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>了解森林疗养</title>
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="../css/init.css">
+    <link rel="stylesheet" href="../css/understand_woods.css">
+
+
+</head>
+<body>
+
+<div class="container swiper-container">
+    <div class="content_item swiper-wrapper">
+        <div class="swiper-slide">
+
+            <a href="understand_woods_detail.html">
+                <div class="ani item_list" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.3s"
+                     swiper-animate-delay="0.3s">
+                    <div>什么是森林疗养</div>
+                    <div class="english">What is forest convalescence</div>
+                </div>
+            </a>
+
+            <div class="ani item_list" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.6s"
+                 swiper-animate-delay="0.3s">
+                <div>什么是森林疗养</div>
+                <div class="english">What is forest convalescence</div>
+            </div>
+
+            <div class="ani item_list" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.9"
+                 swiper-animate-delay="0.3s">
+                <div>什么是森林疗养</div>
+                <div class="english">What is forest convalescence</div>
+            </div>
+
+            <div class="ani item_list bottom" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.2s"
+                 swiper-animate-delay="0.3s">
+                <div>什么是森林疗养</div>
+                <div class="english">What is forest convalescence</div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+</div>
+
+
+<script src="../js/fontsize.js"></script>
+<script src="../js/jquery-2.1.0.js"></script>
+<script src="../js/swiper-3.3.1.min.js"></script>
+<script src="../js/swiper.animate.min.js"></script>
+
+
+<script>
+    //Swiper3.x、Swiper2.x
+    var mySwiper = new Swiper('.swiper-container', {
+        onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function (swiper) {
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    })
+
+</script>
+
+</body>
+</html>

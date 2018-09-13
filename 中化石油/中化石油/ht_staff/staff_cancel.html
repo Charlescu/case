@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>核销办理</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/user_login.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: #F5F6FA">
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">核销办理</h1>
+	</header>
+	<div class="warp">
+		<div class="cancel_box clearfix">
+			<p>核销列表</p>
+			<i class="iconfont icon-common-jinru-copy right"></i>
+		</div>
+	
+		<div class="edit_btn cancel_btn">扫一扫</div>
+		<!-- begin:公共底部 -->
+		<div class="refuul_all">
+			<ul>
+				<li><a href="staff_refuel.html">
+					<em class="iconfont icon-jiayou"></em>
+					加油办理
+				</a></li>
+				<li class="refuel_active"><a href="###">
+					<em class="iconfont icon-hexiao"></em>
+					核销办理
+				</a></li>
+				<li><a href="staff_business.html">
+					<em class="iconfont icon-listpress"></em>
+					业务列表
+				</a></li>
+			</ul>
+		</div>
+		<!-- end:公共底部 -->
+	</div>
+
+	<!-- begin:输入密码弹层 -->
+	<div class="cancel_fn hidden">
+		<div class="cancel_page">
+			<em class="iconfont icon-quxiao"></em>
+			<p class="cancel_head">请输入密码</p>
+			<div class="cancel_inpu">
+				<input type="text" placeholder="1">
+				<input type="text" placeholder="2">
+				<input type="text" placeholder="3">
+				<input type="text" placeholder="4">
+				<input type="text" placeholder="5">
+				<input type="text" placeholder="6">
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.cancel_box').on('click',function(){
+			$('.cancel_fn').show();
+		})
+		$('.cancel_page em').on('click',function(){
+			$('.cancel_fn').hide();
+		})
+	})
+</script>
+</body>
+</html>

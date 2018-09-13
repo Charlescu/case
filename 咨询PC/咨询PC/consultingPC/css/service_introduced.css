@@ -1,0 +1,209 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.icon-wode {
+    margin-right: 9px;
+}
+
+.main_box {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: -40px;
+
+}
+
+.personal_info {
+    width: 242px;
+    height: 211px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.phone_num {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 53px;
+}
+
+.state {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.share_btn a{
+    display: block;
+    width: 188px;
+    height: 40px;
+    background: rgba(241, 163, 59, 1);
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+/*.share_btn a:hover{*/
+    /*background: none;*/
+    /*box-shadow: none;*/
+/*}*/
+.order_item {
+    width: 242px;
+    height: 245px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 19px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.icon-jiantouyou1 {
+    position: absolute;
+    right: 33px;
+    top: 0;
+}
+
+.order_item li a {
+    display: block;
+    position: relative;
+}
+
+.order_item li a:hover {
+    background-color: #F8F8F8;
+    box-shadow: 5px 0px 0px #333333 inset;
+}
+
+.order_item li a .iconfont {
+    display: none;
+}
+
+.order_item li a:hover .iconfont {
+    display: block;
+}
+
+.order_item ul {
+    margin-top: 31px;
+}
+
+.order_item li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+}
+
+
+
+.service_intro{
+    width: 938px;
+    font-size: 16px;
+    color: #666666;
+    background-color: #fff;
+    padding: 49px;
+    line-height: 30px;
+}
+
+
+/* 用户评价详情 */
+
+.main_bg_box{
+    height: 249px;
+    background: url("../images/bg.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main_box3{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.user_evaluation_title{
+    font-size: 30px;
+    color: #F8F8F8;
+    margin-top: 85px;
+}
+.current_page{
+    margin-top: 156px;
+}
+
+.main_box2{
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+.evaluation_detail{
+    width: 938px;
+    background-color: #fff;
+    padding: 50px 75px;
+    margin-bottom: 20px;
+}
+.personal_info{
+    font-size: 16px;
+    color: #666666;
+}
+.star_box{
+    margin-left: 30px;
+}
+.star_box span{
+    cursor: pointer;
+}
+.icon-xing{
+    font-size: 16px;
+    color: #DDDDDD;
+}
+.star{
+    color:#FEC52E ;
+}
+
+.star1{
+    width: 16px;
+    height: 16px;
+    border: 1px solid red;
+}
+.list_content{
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.time{
+    font-size:14px;
+    color: #999999;
+}
+
+.user_evaluation_title{
+    font-size: 30px;
+    color: #F8F8F8;
+    margin-top: 85px;
+}
+.navigation{
+    margin-top: 40px;
+}
+.main_content_item{
+    margin-top: -30px;
+}
+
+.money {
+    font-size: 30px;
+    color: #F1A33B;
+}
+
+.discount_money {
+    font-size: 16px;
+    color: #BBBBBB;
+    text-decoration: line-through;
+    line-height: 1;
+}
+
+.service_hint {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 21px;
+}

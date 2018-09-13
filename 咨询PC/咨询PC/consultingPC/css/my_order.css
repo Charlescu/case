@@ -1,0 +1,878 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.icon-wode {
+    margin-right: 9px;
+}
+
+.main_box {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+.personal_info {
+    width: 242px;
+    height: 211px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.phone_num {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 53px;
+}
+
+.state {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.share_btn a {
+    display: block;
+    width: 188px;
+    height: 40px;
+    background: rgba(241, 163, 59, 1);
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+.order_item {
+    width: 242px;
+    height: 295px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 19px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.icon-jiantouyou1 {
+    position: absolute;
+    right: 33px;
+    top: 0;
+}
+
+.order_item a {
+    display: block;
+    position: relative;
+}
+
+.order_item a:hover {
+    background-color: #F8F8F8;
+    box-shadow: 5px 0px 0px #333333 inset;
+}
+
+.order_item a .iconfont {
+    display: none;
+}
+
+.order_item a:hover .iconfont {
+    display: block;
+}
+
+.order_item ul {
+    margin-top: 31px;
+}
+
+.order_item li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+}
+
+.order_banner {
+    height: 92px;
+    line-height: 92px;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0 30px;
+    background-color: #FFFFFF;
+}
+
+.order_item_content {
+    width: 939px;
+}
+
+.order_content_item {
+    padding: 35px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.banner_left ul > li {
+    float: left;
+}
+
+.order_title {
+    font-size: 18px;
+    color: #333333;
+    margin-right: 68px;
+}
+
+.title_item {
+    font-size: 16px;
+    margin-right: 42px;
+}
+
+.title_item a {
+    color: #999999;
+    padding-bottom:  10px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.order_detail {
+    width: 870px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.order_state {
+    height: 41px;
+    line-height: 41px;
+    background-color: #F8F8F8;
+}
+
+.state2, .state3, .state4, .state5 {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.state1 {
+    width: 230px;
+    padding: 0 16px 0 23px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.state2 {
+    width: 332px;
+}
+
+.state3 {
+    width: 153px;
+}
+
+.state4 {
+    width: 154px;
+}
+
+.state5 {
+    width: 307px;
+}
+
+.state_title {
+    font-size: 16px;
+    color: #666666;
+}
+
+.order_content {
+    /*height: 182px;*/
+    border: 1px solid #EEEEEE;
+}
+.order_content .state1_content, .state2_content,
+.state3_content, .state4_content, .state5_content {
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 16px;
+    min-height: 220px;
+}
+
+.state1_content {
+    /*width: 230px;*/
+    /*height: 182px;*/
+    width: 26%;
+    border-right: 1px solid #EEEEEE;
+    line-height: 30px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.content_hint {
+    font-size: 14px;
+    color: #666666;
+}
+
+.money_box {
+    font-size: 14px;
+}
+
+.money {
+    font-size: 12px;
+    color: rgba(153, 153, 153, 1);
+    text-decoration: line-through;
+}
+
+.state2_content {
+    /*width: 332px;*/
+    /*height: 182px;*/
+    width:38% ;
+    font-size: 16px;
+    color: #333333;
+    border-right: 1px solid #EEEEEE;
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.content_title {
+    width: 100px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: right;
+    color: #999999;
+    /*border: 1px solid red;*/
+
+}
+.content{
+    /*display: inline-block;*/
+    /*max-width:200px ;*/
+    /*border:1px solid pink;*/
+    /*text-align: left;*/
+}
+.state3_content {
+    /*width: 153px;*/
+    /*height: 182px;*/
+    font-size: 16px;
+    width: 18%;
+    color: #222222;
+    border-right: 1px solid #EEEEEE;
+}
+
+.state4_content {
+    /*width: 149px;*/
+    /*height: 182px;*/
+    width: 17%;
+}
+
+.pay_btn a{
+    display: inline-block;
+    width: 80px;
+    height: 32px;
+    background: #F1A33B;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+}
+.evaluate_btn {
+    width: 80px;
+    height: 32px;
+    background: #EEEEEE;
+    font-size: 14px;
+    color: #666666;
+    margin: 0 auto;
+}
+.cancel_order_btn {
+    width: 80px;
+    height: 32px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #999999;
+    margin: 0 auto;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.state5_content {
+    width: 300px;
+    height: 182px;
+}
+
+.mask_box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+}
+
+.popup_box {
+    width: 640px;
+    height: 507px;
+    background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    margin-top: 218px;
+    padding: 57px 57px 34px 57px;
+    overflow: hidden;
+}
+
+.popup_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.icon-xing {
+    color: #E4E4E4;
+}
+
+.star {
+    color: #FFCC00;
+}
+
+.popup_input {
+    /*width: 537px;*/
+    height: 293px;
+    overflow: hidden;
+    border: 1px solid #E4E4E4;
+    margin-top: 42px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup_input textarea {
+    border: 0;
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.font_num {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.popup_btn {
+    margin-top: 30px;
+}
+
+.cancel_btn {
+    width: 110px;
+    height: 35px;
+    background: rgba(228, 228, 228, 1);
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+    padding: 10px 40px;
+}
+
+.submit_btn {
+    width: 144px;
+    height: 35px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 40px;
+}
+
+/* 分享有礼 */
+.share_box {
+    width: 939px;
+    height: 432px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.share_icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.share_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.share_hint {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.share_hint2 {
+    font-size: 18px;
+    color: #F1A33B;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 账户余额 */
+
+.balance_title {
+    font-size: 18px;
+    color: #666666;
+}
+
+.account_balance_box {
+    margin-bottom: 60px;
+    margin-top: 45px;
+}
+
+.account_balance {
+    font-size: 48px;
+    color: #FBA128;
+    margin: 0 13px 0 23px;
+}
+
+.total_box, .total_box1 {
+    width: 240px;
+    font-size: 14px;
+    background-color: #F8F8F8;
+    color: #999999;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.income_record {
+    font-size: 16px;
+    color: #222222;
+}
+
+.icon-my_icon {
+    font-size: 16px;
+    color: #CCCCCC;
+    margin-right: 7px;
+}
+
+.withdrawal_box {
+    margin-top: 67px;
+}
+
+.withdrawal_hint {
+    font-size: 16px;
+    color: #666666;
+}
+
+.withdrawal_btn {
+    display: inline-block;
+    width: 113px;
+    height: 30px;
+    border: 1px solid #F1A33B;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #F1A33B;
+    margin-left: 20px;
+}
+
+.icon-tixian1 {
+    color: #F1A33B;
+}
+
+.my_bag_content, .my_bag_content1 {
+    padding: 0 35px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+}
+
+.my_bag_content1 {
+    padding: 45px 35px;
+}
+
+.my_bag_banner {
+    height: 65px;
+    line-height: 65px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 16px;
+    color: #999999;
+    padding: 0 35px;
+
+}
+
+.line2 {
+    margin: 0 35px;
+}
+
+.start_tiem, .end_time {
+    display: inline-block;
+    vertical-align: middle;
+    width: 133px;
+    height: 35px;
+    background: #F5F5F5;
+    font-size: 14px;
+    color: #999999;
+    padding: 0 11px;
+    border: 0;
+}
+
+.view_btn {
+    width: 55px;
+    height: 31px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    padding: 8px 13px;
+    margin-left: 13px;
+}
+
+.account_info {
+    height: 50px;
+    line-height: 50px;
+    background: rgba(248, 248, 248, 1);
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333333;
+    padding: 0 27px;
+}
+
+.time {
+    color: #999999;
+    margin-left: 63px;
+}
+
+.num {
+    float: right;
+    color: #F1A33B;
+}
+
+/* 提现 */
+
+.account_balance_box1 {
+    text-align: center;
+}
+
+.total_box1 {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.withdrawal_hint {
+    text-align: center;
+}
+
+.print_box {
+    width: 320px;
+    margin: 0 auto;
+    padding: 15px 50px;
+    border-bottom: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.print_box input {
+    width: 150px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    color: #333;
+
+}
+
+.money_icon {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F1A33B;
+    margin-right: 28px;
+    text-align: center;
+    /*vertical-align: middle;*/
+}
+
+.confirm_withdrawal_btn {
+    width: 142px;
+    height: 35px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 60px;
+}
+
+.account_balance_box1 {
+    padding: 0 60px;
+    background-color: #ffffff;
+}
+
+/* 个人中心我的资料 */
+.my_profile_box {
+    height: 432px;
+    background-color: #FFFFFF;
+    padding: 48px 60px;
+}
+
+.my_profile_content {
+    margin-bottom: 49px;
+}
+
+.my_profile_content input {
+    width: 266px;
+    /*height: 40px;*/
+    border: 0;
+    outline: none;
+    background-color: #F8F8F8;
+    padding: 13px 19px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.charge_phone a {
+    display: block;
+    border: 1px solid #F1A33B;
+    font-size: 14px;
+    color: #F1A33B;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.phone_num_box input {
+    width: 120px;
+    border: 0;
+    outline: none;
+    color: #333333;
+    font-size: 16px;
+}
+
+.account_hint, .icon-my_icon {
+    font-size: 14px;
+    color: #EF6F43;
+    margin-left: 30px;
+
+}
+
+.my_profile_title {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+/* 更改绑定 */
+
+.navigation {
+    margin-top: 25px;
+}
+
+.charge_bind_box {
+    width: 939px;
+    height: 432px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.next_btn a {
+    display: block;
+    width: 142px;
+    height: 35px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.steps {
+    width: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.icon-1, .icon-2-copy, .icon-3-copy {
+    font-size: 18px;
+    color: #E5E5E5;
+    position: absolute;
+    z-index: 6;
+}
+
+.first_step .icon-1, .steps_content {
+    color: #F1A33B;
+
+}
+
+.first_step .iconfont_box:after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #F1A33B;
+    position: absolute;
+    left: 11px;
+    top: 50%;
+}
+
+.second_step .icon-2-copy, .steps_content {
+    color: #F1A33B;
+}
+
+.second_step .iconfont_box:after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #F1A33B;
+    position: absolute;
+    left: 11px;
+    top: 50%;
+}
+
+.third_step .icon-3-copy, .steps_content {
+    color: #F1A33B;
+}
+
+.third_step .iconfont_box:after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #F1A33B;
+    position: absolute;
+    left: 11px;
+    top: 50%;
+}
+
+.iconfont_box {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+}
+
+.iconfont_box:after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #E5E5E5;
+    position: absolute;
+    left: 11px;
+    top: 50%;
+}
+
+.steps:last-child .iconfont_box:after {
+    width: 0;
+    height: 0;
+}
+
+.next_btn {
+    width: 142px;
+    height: 35px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 35px;
+    margin: 56px auto 0 auto;
+}
+
+.charge_bind_content {
+    width: 400px;
+    margin: 151px auto 0 auto;
+
+}
+
+.verification_code_box {
+    margin-top: 44px;
+}
+
+.verification_code_input {
+    width: 220px;
+    height: 30px;
+    display: inline-block;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.verification_code_input input {
+    border: 0;
+    outline: none;
+}
+
+.get_code_btn input {
+    background: none;
+    cursor: pointer;
+}
+
+.input_name {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+/* 更改手机号成功 */
+.charge_success {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.icon-wancheng {
+    font-size: 24px;
+    color: #F1A33B;
+}
+
+.return_index a {
+    display: block;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-top: 48px;
+}
+
+/* 取消订单弹窗 */
+.cancel_order_popup {
+    width: 33%;
+    height: 29%;
+    background-color: #fff;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 640px;
+    min-height: 285px;
+}
+
+.cancel_order_title {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-top: 73px;
+}
+
+.bottom_btn_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.cancel_btn1 {
+    width: 144px;
+    height: 35px;
+    background: #E4E4E4;
+    font-size: 16px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.confirm_btn1 {
+    width: 144px;
+    height: 35px;
+    background: #F1A33B;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_item .title_active {
+    width: 20px;
+    /*border:1px solid red;*/
+    border-bottom: 3px solid #333;
+    border-radius:2px;
+    color: #333;
+}

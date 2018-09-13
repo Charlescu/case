@@ -1,0 +1,33 @@
+.container{
+    background:url("../images/bg.png" )  no-repeat ;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.69rem 0;
+}
+.item_list{
+    width: 6.05rem;
+    height: 1.68rem;
+    font-size: 0.36rem;
+    color: #fff;
+    background-color: rgba(52,178,70,0.85);
+    border-radius: 0 0.84rem 0.84rem 0;
+    margin-bottom: 0.68rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.19rem;
+}
+.bottom{
+    margin-bottom: 0;
+}
+.english{
+    font-size: 0.26rem;
+    color:RGBA(255, 255, 255, 0.5) ;
+}

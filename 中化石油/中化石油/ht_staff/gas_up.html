@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>加油确认</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/center.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: #F5F6FA">
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">加油确认</h1>
+	</header>
+	<div class="warp">
+		<!-- begin:订单信息 -->
+		<div class="gas_box">
+			<h2>订单信息</h2>
+			<div class="gas_list">
+				<p class="gas_txt1">时间</p>
+				<p class="gas_txt2">2018.08.03</p>
+			</div>
+			<div class="gas_list">
+				<p class="gas_txt1">油品</p>
+				<p class="gas_txt2">汽油</p>
+			</div>
+			<div class="gas_list">
+				<p class="gas_txt1">型号</p>
+				<p class="gas_txt2">92号</p>
+			</div>
+			<div class="gas_list">
+				<p class="gas_txt1">加油金额</p>
+				<p class="gas_txt2">￥200</p>
+			</div>
+		</div>
+		<!-- begin:优惠卷 -->
+		<div class="gas_cop">
+			<p>优惠券</p>
+			<p class="gas_right">￥5 代金券</p>
+			<i class="iconfont icon-common-jinru-copy right"></i>
+		</div>
+		<div class="what_details hidden">
+			<h2>选择要使用的优惠券</h2>
+			<div class="view_box">
+				<div class="view_label">
+					<input type="radio" name="radio" checked="checked"/><em></em>
+				</div>
+				<div class="view_left view_img1">
+					<p class="view_txt1">优惠券</p>
+					<p class="view_txt2">￥<span>500</span></p>
+					<p class="view_txt3">待使用</p>
+				</div>
+				<div class="view_right">
+					<p class="view_txt4">仅限汽油</p>
+					<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+				</div>
+			</div>
+			<div class="view_box">
+				<div class="view_label">
+					<input type="radio" name="radio"/><em></em>
+				</div>
+				<div class="view_left view_img1">
+					<p class="view_txt1">优惠券</p>
+					<p class="view_txt2">￥<span>500</span></p>
+					<p class="view_txt3">待使用</p>
+				</div>
+				<div class="view_right">
+					<p class="view_txt4">仅限汽油</p>
+					<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+				</div>
+			</div>
+		</div>
+		<!-- begin:实付金额 -->
+		<div class="gas_pay">
+			<p>实付金额</p>
+			<p class="gas_noe">￥195 </p>
+		</div>
+		<div class="edit_btn gas_btn">确认支付</div>
+	</div>
+
+	<!-- begin:红包弹层 -->
+	<div class="packet_fn hidden"><img src="../images/hongboa@2x.png"></div>
+
+	<!-- begin:成功消费弹窗 -->
+	<div class="insufficient packet_meny hidden">恭喜您，成功消费￥400！获得40积分</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 使用优惠卷显示与隐藏
+		var what = true;
+        $('.gas_cop').click(function() {
+            if(what) {
+                $('.what_details').show()
+                what = false
+            } else {
+                $('.what_details').hide()
+                what = true;
+            }
+        })
+        // 点击优惠卷弹出红包弹层
+        $('.view_box').on('click', function(){
+        	$('.packet_fn').show();
+        })
+        $('.packet_fn').on('click',function(){
+        	$('.packet_fn').hide();	
+        })
+	})
+</script>
+</body>
+</html>

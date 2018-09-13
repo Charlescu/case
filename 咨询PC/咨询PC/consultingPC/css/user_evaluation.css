@@ -1,0 +1,91 @@
+body{
+    background-color: #F8F8F8;
+}
+.main_bg_box{
+    height: 249px;
+    background: url("../images/bg.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main_box{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.user_evaluation_title{
+    font-size: 30px;
+    color: #F8F8F8;
+    margin-top: 85px;
+}
+.current_page{
+    margin-top: 156px;
+}
+.main_content_item{
+    margin-top: -50px;
+}
+.item_list{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 70px 60px;
+    margin-bottom: 20px;
+}
+.main_left{
+    width: 848px;
+}
+.list_content{
+    margin-top: 30px;
+}
+.icon-xing{
+    float: left;
+    font-size: 20px;
+    color: #DDDDDD;
+    margin-right: 10px;
+}
+.star{
+    color:#FEC52E;
+}
+.content_hint{
+    font-size: 16px;
+    color: #999999;
+    margin-top: 60px;
+}
+
+
+
+/* 客户服务 */
+.service_list{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 130px 180px;
+}
+.service_item_img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.service_item_img img{
+    width: 100%;
+    height: 100%;
+}
+.list_item{
+    float: left;
+    margin-right: 130px;
+    text-align: center;
+}
+.list_item:last-child{
+    margin-right: 0;
+
+}
+.service_content{
+    font-size: 18px;
+    color: #333333;
+    margin-top: 41px;
+}
+.service_item{
+    font-size: 16px;
+    color: #999999;
+    margin-top: 18px;
+}

@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>业务列表</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/weui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/myweui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/user_login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">业务列表</h1>
+	</header>
+	<div class="warp">
+		<div class="bus_com">
+			<i class="iconfont icon-sousuo"></i>
+			<input type="text" name="" placeholder="搜索用户手机号">
+			<p class="busines_btn">搜索</p>
+		</div>
+		<!-- begin:列表信息下拉框 -->
+		<div class="busin_select">
+			<ul>
+				<li class="busin_date">
+					<i class="iconfont icon-icon-arrDown-fill"></i>
+					<p class="busin_option">时间</p>
+				</li>
+				<li class="busin_pin">
+					<i class="iconfont icon-icon-arrDown-fill"></i>
+					<p class="busin_option">油品</p>
+				</li>
+				<li class="busin_hao">
+					<i class="iconfont icon-icon-arrDown-fill"></i>
+					<p class="busin_option">型号</p>
+				</li>
+				<li class="busin_user">
+					<i class="iconfont icon-icon-arrDown-fill"></i>
+					<p class="busin_option">员工</p>
+				</li>
+			</ul>
+		</div>
+		<div class="busin_list">
+			<ul class="cancel_ul">
+				<li>
+					<h2>2018.08.03</h2>
+					<p>用户名称：<span>张楚岚</span></p>
+					<p>兑换商品：<span>兑换特仑苏牛奶1箱</span></p>
+					<p>使用积分：<span>-400积分</span></p>
+				</li>
+				<li>
+					<h2>2018.08.03</h2>
+					<p>用户名称：<span>张楚岚</span></p>
+					<p>兑换商品：<span>兑换特仑苏牛奶1箱</span></p>
+					<p>使用积分：<span>-400积分</span></p>
+				</li>
+				<li>
+					<h2>2018.08.03</h2>
+					<p>用户名称：<span>张楚岚</span></p>
+					<p>兑换商品：<span>兑换特仑苏牛奶1箱</span></p>
+					<p>使用积分：<span>-400积分</span></p>
+				</li>
+			</ul>
+		</div>
+		<!-- begin:公共底部 -->
+		<div class="refuul_all">
+			<ul>
+				<li><a href="staff_refuel.html">
+					<em class="iconfont icon-jiayou"></em>
+					加油办理
+				</a></li>
+				<li><a href="staff_cancel.html">
+					<em class="iconfont icon-hexiao"></em>
+					核销办理
+				</a></li>
+				<li class="refuel_active"><a href="###">
+					<em class="iconfont icon-listpress"></em>
+					业务列表
+				</a></li>
+			</ul>
+		</div>
+		<!-- end:公共底部 -->
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript" src="../js/weui.js"></script>
+<script type="text/javascript" src="../js/myweui.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 时间下拉
+		$('.busin_date').on('click', function () {
+	        weui.picker([{
+	            label: '2018/8/15',
+	            value: 0
+	        }, {
+	            label: '2019/8/18',
+	            value: 1
+	        }, {
+	            label: '2020/2/16',
+	            value: 2
+	        }, {
+	            label: '2018/12/12',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.busin_date p').text(result[0].label)
+	            }
+	        });
+	    });
+	    // 油品下拉
+		$('.busin_pin').on('click', function () {
+	        weui.picker([{
+	            label: 'HK油品',
+	            value: 0
+	        }, {
+	            label: 'KO油品',
+	            value: 1
+	        }, {
+	            label: 'AA油品',
+	            value: 2
+	        }, {
+	            label: 'CC油品',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.busin_pin p').text(result[0].label)
+	            }
+	        });
+	    });
+	    // 型号下拉
+		$('.busin_hao').on('click', function () {
+	        weui.picker([{
+	            label: 'HK型号',
+	            value: 0
+	        }, {
+	            label: 'KO型号',
+	            value: 1
+	        }, {
+	            label: 'AA型号',
+	            value: 2
+	        }, {
+	            label: 'CC型号',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.busin_hao p').text(result[0].label)
+	            }
+	        });
+	    });
+	    // 员工下拉
+		$('.busin_user').on('click', function () {
+	        weui.picker([{
+	            label: '娜娜员工',
+	            value: 0
+	        }, {
+	            label: '迷宫员工',
+	            value: 1
+	        }, {
+	            label: '明明员工',
+	            value: 2
+	        }, {
+	            label: '香米橙橙',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.busin_user p').text(result[0].label)
+	            }
+	        });
+	    });
+	})
+</script>
+</body>
+</html>

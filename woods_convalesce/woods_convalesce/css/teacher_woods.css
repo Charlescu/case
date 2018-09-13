@@ -1,0 +1,77 @@
+
+.content_list {
+    padding: 0.27rem 0.25rem;
+}
+
+.content_item {
+    display: flex;
+    /*justify-content: space-between;*/
+    background-color: #fff;
+    border-radius: 0.1rem;
+    margin-bottom: 0.25rem;
+    padding: 0.46rem 0.5rem;
+    box-sizing: border-box;
+    box-shadow: 0.1rem 0 0.25rem rgba(0, 0, 0, 0.06);
+}
+
+.item_character {
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item_img {
+    width: 1.64rem;
+    height: 2.18rem;
+    margin-right: 0.36rem;
+}
+
+.item_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.teacher_name {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 0.3rem;
+    color: #333;
+}
+.icon-xingxing{
+    margin-left: 0.1rem;
+}
+.icon-xingxing {
+    font-size: 0.24rem;
+    color: #FEC52E;
+}
+.gray_start{
+    color: #DDDDDD !important;
+}
+.age_box {
+    font-size: 0.26rem;
+    display: flex;
+
+}
+
+.age, .field {
+    color: #E4904B;
+    border: 0.01rem solid #E4904B;
+    padding: 0.1rem 0.13rem;
+    border-radius: 0.05rem;
+}
+
+.field {
+    color: #2B953A;
+    border: 0.01rem solid #2B953A;
+    margin-left: 0.15rem;
+}
+
+.introduce {
+    font-size: 0.26rem;
+    color: #666;
+
+}

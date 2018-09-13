@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>加油办理</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/weui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/myweui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/user_login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">加油办理</h1>
+	</header>
+	<div class="warp">
+		<div class="refuel_box">
+			<div class="refuel_left">业务类型</div>
+			<div class="refuel_right">
+				<div class="refuel_list refuel_oil clearfix">
+					<p class="refuel_txt">油品</p>
+					<i class="iconfont icon-icon-arrDown-fill right"></i>
+				</div>
+				<div class="refuel_list refuel_bottom clearfix">
+					<p class="refuel_txt">型号</p>
+					<i class="iconfont icon-icon-arrDown-fill right"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="refuel_box refuel_page">
+			<div class="refuel_left">加油员工</div>
+			<div class="refuel_right">
+				<div class="refuel_list refuel_user clearfix">
+					<p class="refuel_txt">A员工</p>
+					<i class="iconfont icon-icon-arrDown-fill right"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="refuel_money">
+			<h2>加油金额</h2>
+			<div class="refuel_dict">
+				<em>￥</em>
+				<input type="text" name="" placeholder="200">
+			</div>
+		</div>
+		<div class="edit_btn refutl_btn">确定</div>
+		<!-- begin:公共底部 -->
+		<div class="refuul_all">
+			<ul>
+				<li class="refuel_active"><a href="###">
+					<em class="iconfont icon-jiayou"></em>
+					加油办理
+				</a></li>
+				<li><a href="staff_cancel.html">
+					<em class="iconfont icon-hexiao"></em>
+					核销办理
+				</a></li>
+				<li><a href="staff_business.html">
+					<em class="iconfont icon-listpress"></em>
+					业务列表
+				</a></li>
+			</ul>
+		</div>
+		<!-- end:公共底部 -->
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript" src="../js/weui.js"></script>
+<script type="text/javascript" src="../js/myweui.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 油品下拉
+		$('.refuel_oil').on('click', function () {
+	        weui.picker([{
+	            label: '中化石油加油站1',
+	            value: 0
+	        }, {
+	            label: '中化石油加油站2',
+	            value: 1
+	        }, {
+	            label: '中化石油加油站3',
+	            value: 2
+	        }, {
+	            label: '中化石油加油站4',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.refuel_oil .refuel_txt').text(result[0].label)
+
+	            }
+	        });
+	    });
+	    // 型号下拉
+		$('.refuel_bottom').on('click', function () {
+	        weui.picker([{
+	            label: '长城46号冷冻机油',
+	            value: 0
+	        }, {
+	            label: '长城50号冷冻机油',
+	            value: 1
+	        }, {
+	            label: '长城18号冷冻机油',
+	            value: 2
+	        }, {
+	            label: '长城20号冷冻机油',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.refuel_bottom .refuel_txt').text(result[0].label)
+
+	            }
+	        });
+	    });
+	    // 加油员工下拉
+	    $('.refuel_user').on('click', function () {
+	        weui.picker([{
+	            label: 'A员工',
+	            value: 0
+	        }, {
+	            label: 'B员工',
+	            value: 1
+	        }, {
+	            label: 'C员工',
+	            value: 2
+	        }, {
+	            label: 'D员工',
+	            value: 3
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.refuel_user .refuel_txt').text(result[0].label)
+
+	            }
+	        });
+	    });
+	})
+</script>
+</body>
+</html>

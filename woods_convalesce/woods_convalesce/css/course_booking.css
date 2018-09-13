@@ -1,0 +1,54 @@
+.container{
+    overflow: hidden;
+}
+.content_item{
+    background-color: #fff;
+    padding: 0.57rem 0.4rem;
+    border-radius:0.1rem ;
+    margin: 0.21rem 0.25rem 0.42rem 0.21rem;
+}
+.item_list{
+    font-size: 0.3rem;
+    display: flex;
+    padding: 0.33rem 0;
+    background-color: #F8F8F8;
+    border-radius:0.1rem ;
+    margin-bottom:0.32rem ;
+}
+.last{
+    margin-bottom:0 ;
+}
+.name{
+    margin-left: 0.37rem;
+}
+.item_list input{
+    font-size: 0.3rem;
+    margin-left: 0.39rem;
+    border: none;
+    outline: none;
+    background:none ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.submit_btn{
+    width:93%;
+    margin: 0 auto;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.88rem;
+    border-radius: 0.1rem;
+    background-color: #34B246;
+    box-shadow:8px 0px 10px rgba(52,178,70,0.5);
+}

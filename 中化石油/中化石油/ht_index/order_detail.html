@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>订单详情</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/center.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">订单详情</h1>
+	</header>
+	<div class="warp">
+		<div class="indent_list">
+			<ul class="order_ul">
+				<li>
+					<div class="info_left"><img src="../images/apic01.png"></div>
+					<div class="info_right">
+						<p class="info_txt1">百草味 肉干肉脯 白芝麻猪脯</p>
+						<p class="info_txt2">奶油味夏威夷果200g/袋</p>
+						<p class="info_num"><span>302</span>积分</p>
+					</div>
+					<p class="info_number">X1</p>
+				</li>
+				<li>
+					<div class="info_left"><img src="../images/apic01.png"></div>
+					<div class="info_right">
+						<p class="info_txt1">农夫山泉NFC果汁</p>
+						<p class="info_txt2">100%NFC橙汁200g/袋</p>
+						<p class="info_num"><span>302</span>积分</p>
+					</div>
+					<p class="info_number">X1</p>
+				</li>
+			</ul>
+		</div>
+		<!-- begin:订单编号详情 -->
+		<div class="indent_detail">
+			<p class="indent_num">订单编号<span>201807123659</span></p>
+			<p class="indent_txt">领取站点<span>A加油站</span></p>
+			<p class="indent_txt">共 消 费 <span>305积分</span></p>
+			<p class="indent_txt">取货时间<span>2018年10月1日</span></p>
+		</div>
+		<!-- begin:二维码 -->
+		<div class="indent_code">
+			<h2>二维码</h2>
+			<img src="../images/code.jpg">
+		</div>
+	</div>
+
+	<!-- begin:二维码弹层 -->
+	<div class="indent_fn hidden">
+		<img src="../images/code.jpg">
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		//点击弹出二维码弹层
+		$('.indent_code img').on('click', function(){
+			$('.indent_fn').show();
+		})
+		$('.indent_fn').on('click',function(){
+			$('.indent_fn').hide();
+		})
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,499 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.main_bg_box {
+    height: 249px;
+    background: url("../images/bg.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.main_box {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.user_evaluation_title {
+    font-size: 30px;
+    color: #F8F8F8;
+    margin-top: 85px;
+}
+
+.current_page {
+    margin-top: 156px;
+}
+
+.main_content_item {
+    margin-top: -30px;
+}
+
+.money {
+    font-size: 30px;
+    color: #F1A33B;
+}
+
+.discount_money {
+    font-size: 16px;
+    color: #BBBBBB;
+    text-decoration: line-through;
+    line-height: 1;
+}
+
+.service_hint {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 21px;
+}
+
+.info_title {
+    font-size: 16px;
+    color: #999999;
+}
+
+.info_list {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 74px 100px;
+}
+
+.list_left {
+    width: 450px;
+}
+
+.info_item {
+    width: 450px;
+    border-bottom: 1px solid #E4E4E4;
+    padding: 39px 0px 27px 0px;
+}
+
+.list_right {
+    width: 479px;
+    padding: 39px 0px 27px 0px;
+}
+
+.info_content_item {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.mandatory {
+    display: inline-block;
+    color: #438AF2;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.info_input {
+    margin-top: 29px;
+}
+
+.info_input input {
+    width: 100%;
+    font-size: 16px;
+    color: #222;
+    border: 0;
+    outline: none;
+}
+.info_input select{
+    width: 100%;
+    font-size: 16px;
+    color: #222;
+    border: 0;
+    outline: none;
+}
+.radio{
+    width: 80px;
+    float: left;
+}
+.radio input {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+
+
+}
+
+.money1 {
+    font-size: 18px;
+    color: #F1A33B;
+}
+
+.money2 {
+    font-size: 24px;
+
+}
+
+.info_textarea {
+    width: 479px;
+    height: 294px;
+    background-color: #F7F7F7;
+    position: relative;
+    margin-top: 29px;
+}
+
+.info_textarea textarea {
+    width: 479px;
+    height: 317px;
+    font-size: 16px;
+    color: #222222;
+    border: 0;
+    outline: none;
+    resize: none;
+    background-color: #F7F7F7;
+    padding: 19px 28px;
+
+}
+
+.font_num {
+    font-size: 14px;
+    color: #AAAAAA;
+    position: absolute;
+    right: 17px;
+    bottom: 56px;
+}
+
+.hint_info_box {
+    width: 100%;
+    margin-top: 34px;
+}
+
+.font_hint {
+    font-size: 16px;
+    color: #333333;
+}
+
+.hint {
+    color: #F1A33B;
+}
+
+.hint_box {
+    width: 479px;
+}
+
+.hint_item {
+
+    width: 450px;
+}
+
+.charge_bind_box {
+    height: 432px;
+}
+
+.iconfont_box {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+
+}
+
+.icon-1 {
+    font-size: 17px;
+    color: #F1A33B;
+    position: absolute;
+    z-index: 6;
+}
+
+.icon-2-copy, .icon-3-copy {
+    font-size: 18px;
+    color: #E5E5E5;
+    position: absolute;
+    z-index: 6;
+}
+.second,.third{
+    color: #F1A33B;
+}
+.iconfont_box:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background-color: #E5E5E5;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+.first_step .iconfont_box:after,.second_step .iconfont_box:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background-color:#F1A33B;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+.steps:last-child .iconfont_box:after {
+    width: 0;
+    height: 0;
+}
+
+.steps {
+    width: 85px;
+    position: relative;
+    text-align: center;
+}
+
+.second_step .icon-2-copy, .steps_content {
+    color: #F1A33B;
+}
+/*.second_step .iconfont_box:after {*/
+    /*content: "";*/
+    /*width: 80px;*/
+    /*height: 4px;*/
+    /*background-color: #F1A33B;*/
+    /*position: absolute;*/
+    /*left: 11px;*/
+    /*top: 50%;*/
+/*}*/
+
+.fill_info {
+    font-size: 14px;
+    color: #F8F8F8;
+}
+
+.bottom_btn {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 63px;
+    padding: 0 385px;
+    box-sizing: border-box;
+}
+
+.cancel_btn {
+    display: inline-block;
+    width: 180px;
+    height: 44px;
+    background: rgba(228, 228, 228, 1);
+    font-size: 18px;
+    color: rgba(153, 153, 153, 1);
+    text-align: center;
+    line-height: 44px;
+}
+
+.next_btn a{
+    display: inline-block;
+    width: 180px;
+    height: 44px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 44px;
+    margin-left: 20px;
+}
+
+/* 提交订单 */
+.info_list_box {
+    width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.info_list2 {
+    width: 1200px;
+    margin: 0 auto;
+    /*margin-bottom: 20px;*/
+    background-color: #fff;
+    padding: 40px 49px;
+    line-height: 30px;
+}
+
+.total_box {
+    border-top: 1px solid #EEEEEE;
+    padding: 16px 49px;
+}
+
+.agreement_box {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.agreement_info {
+    color: #F1A33B;
+}
+
+.submit_btn a{
+    display: block;
+    width: 249px;
+    height: 44px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 44px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.info_content {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 29px;
+
+}
+
+.total_content {
+    font-size: 18px;
+    color: #333333;
+}
+
+.mask_box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 8;
+}
+
+.popup_box {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 43%;
+    position: relative;
+    top: 50%;
+    height: 86%;
+    left: 50%;
+    /*transform:  translateX(-420px);*/
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    padding: 60px 65px;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+.icon-close {
+    font-size: 14px;
+    color: #CCCCCC;
+    position: absolute;
+    right: 22px;
+    top: 22px;
+    cursor: pointer;
+}
+
+.popup_title {
+    font-size: 20px;
+    color: #F1A33B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.popup_content_box {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    text-indent: 1cm;
+}
+
+.popup_content_item {
+    margin-bottom: 30px;
+}
+
+.popup_btn {
+    width: 180px;
+    height: 44px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 44px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* 提交成功选择支付方式 */
+.account_img {
+    display: inline-block;
+    width: 170px;
+    height: 42px;
+    margin-top: 49px;
+    margin-right: 40px;
+}
+
+.account_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.pay_btn {
+    display: inline-block;
+    width: 128px;
+    height: 40px;
+    background: rgba(241, 163, 59, 1);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 40px;
+}
+
+.total_box1 {
+    padding: 0;
+}
+
+.total_content1 {
+    padding: 14px;
+}
+
+/* 2 */
+
+.two_code_box {
+    width: 235px;
+    height: 235px;
+    margin-top: 40px;
+}
+
+.two_code_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom_icon_box {
+    width: 235px;
+    height: 60px;
+    background-color: #F78F4E;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.icon-biankuang {
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+
+}
+
+.icon-78 {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.pay_method {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 8px;
+
+}
+
+/* 3 */
+.account_money {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 65px;
+}

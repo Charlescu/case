@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>员工登录</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/user_login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">员工登录</h1>
+	</header>
+	<div class="warp">
+		<div class="stall_head"><img src="../images/head@2x.png"></div>
+		<div class="stall_list">
+			<i class="iconfont icon-zhanghao"></i>
+			<input type="text" placeholder="请输入账号">
+		</div>
+		<div class="stall_list">
+			<i class="iconfont icon-zhanghao"></i>
+			<input type="text" placeholder="请输入密码">
+		</div>
+		<div class="stall_btn">登录</div>
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.stall_btn').on('click',function(){
+			window.location.href = 'staff_refuel.html'
+		})
+	})
+</script>
+</body>
+</html>

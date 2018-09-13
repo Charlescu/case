@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC注册</title>
+    <link rel="stylesheet" href="../css/init.css">
+    <link rel="stylesheet" href="../css/init_head.css">
+    <link rel="stylesheet" href="../css/PCregister.css">
+
+
+</head>
+<body>
+
+<div class="header">
+    <div class="header_box clearfix">
+        <div class="header_left left">
+            <ul>
+
+                <li class="header_icon"><img src="../images/e@2x.png" alt=""></li>
+
+                <li class="header_content_item"><a href="../index/index.html">首页</a></li>
+
+                <li class="header_content_item"><a href="../index/resume_services.html">简历服务 </a></li>
+
+                <li class="header_content_item"><a href="../index/consulting_services.html">咨询服务 </a></li>
+
+                <li class="header_content_item"><a href="../index/user_evaluation.html">用户评价 </a></li>
+
+                <li class="header_content_item"><a href="../index/customer_service.html">客户服务</a></li>
+
+            </ul>
+        </div>
+        <div class="header_right right">
+            <ul>
+                <li class="header_content_item login"><a href="user_login.html">登录</a></li>
+                <span class="line">|</span>
+                <li class="header_content_item register"><a href="user_login.html">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<form action="" name="forma" onsubmit="return doValidate()">
+    <div class="main">
+        <div class="content">
+            <div class="content_box">
+                <div class="content_title">注册</div>
+                <div class="content_item">姓名</div>
+                <div class="content_input"><input type="text" placeholder="请输入您的真实姓名" id="user_name"></div>
+
+                <div class="content_item">手机号</div>
+                <div class="content_input"><input type="number" placeholder="请输入您的手机号" id="phone_num">
+                </div>
+
+                <div class="content_item">验证码</div>
+                <div class="content_input">
+                    <input type="number" placeholder="请输入验证码" class="print_btn" id="print_btn">
+                    <div class="get_code_btn">
+                        <input type="button" class="get_code" value=" 获取短信验证码" onclick="settime(this);">
+                    </div>
+                </div>
+
+                <div class="content_item">工作年限</div>
+                <div class="content_input">
+                    <select name="" id="year">
+                        <option value="">请选择工作年限</option>
+                        <option value="1">1年</option>
+                        <option value="2">2年</option>
+                    </select>
+
+                </div>
+
+                <div class="register_btn"><input type="button" value="注册"></div>
+                <div class="hint_info">已有账号，
+                    <text class="hint"><a href="user_login.html">马上登录</a></text>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="footer">
+    <div class="footer_box">
+        <div class="footer_left left">
+            <div class="footer_icon"><img src="../images/e.png" alt=""></div>
+            <div class="footer_content_item">客服邮箱</div>
+            <div class="footer_content_item">vip@cv995.com</div>
+        </div>
+
+        <div class="footer_right right">
+            <div class="footer_content">
+                <div class="footer_img"><img src="../images/two_code.png" alt=""></div>
+                <div class="footer_hint">服务公众号</div>
+            </div>
+            <div class="footer_content">
+                <div class="footer_img"><img src="../images/two_code.png" alt=""></div>
+                <div class="footer_hint">服务公众号</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--<input type="number" class="code" placeholder="请输入手机验证码" required maxlength="6">-->
+<!--<input type="button" class="obtain generate_code" value=" 获取验证码" onclick="settime(this);">-->
+
+</body>
+</html>
+<script src="../js/jquery-2.1.0.js"></script>
+<script src="../js/countdown.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.register_btn').click(function () {
+
+            var phone = $('#phone_num').val();
+            var name = $('#user_name').val();
+            var code= $('#print_btn').val();
+            var year=$('#year option:selected').val();
+
+            if (name == ''||name==null||name==undefined) {
+                alert('用户名不能为空')
+                return false
+            }
+           else if (!mobileReg.test(phone)) {
+                alert('手机号不正确')
+                return false
+            }
+          else  if (code== ''||code==null||code==undefined) {
+                alert('验证码不能为空')
+                return false
+            }
+           else if (year== ''||year==null||year==undefined) {
+                alert('工作年限不能为空')
+                return false
+            }
+            else {
+                alert('ok')
+            }
+        })
+    })
+</script>

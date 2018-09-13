@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品详情</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/petroleum.css" rel="stylesheet" type="text/css">
+<link href="../css/swiper.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">商品详情</h1>
+	</header>
+	<div class="warp">
+		<!-- begin:数字轮播图 -->
+		<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="../images/bpic01@2x.png"></div>
+	            <div class="swiper-slide"><img src="../images/bpic01@2x.png"></div>
+	            <div class="swiper-slide"><img src="../images/bpic01@2x.png"></div>
+	            <div class="swiper-slide"><img src="../images/bpic01@2x.png"></div>
+	        </div>
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    <!-- begin： 商品信息-->
+	    <div class="detail_info">
+	    	<p class="detail_num"><span>302</span>积分</p>
+	    	<p class="detail_txt1">百草味 肉干肉脯 白芝麻猪</p>
+	    	<p class="detail_txt2">奶油味夏威夷果200g/袋</p>
+	    </div>
+	    <div class="detail_spec">
+	    	<p class="spec_txt1">规格</p>
+	    	<p class="spec_txt2 right">200g/袋</p>
+	    </div>
+	    <div class="detail_message">
+	    	<div class="detail_minus">
+	    		<span><img src="../images/minus.png"></span>
+	    		<p>商品信息</p>
+	    		<span><img src="../images/minus.png"></span>
+	    	</div>
+	    	<img src="../images/detail.png">
+	    </div>
+
+		<!-- begin：底部 -->
+	    <div class="all_height"></div>
+    	<div class="detail_fixd">
+    		<div class="foot_cart"><span>2</span></div>
+    		<a class="detail_btn detail_gou" href="###">加入购物车</a>
+    		<a class="detail_btn detail_bgco" href="###">一键结算</a>
+    	</div>
+	    <!-- end：底部 -->
+	</div>
+
+	<!-- begin:选择属性 -->
+	<div class="pro_bg hidden">
+		<div class="property">
+			<div class="prop_close"><i class="iconfont icon-quxiao"></i></div>
+			<ul class="reco_public">
+	    		<li>
+	    			<div class="mmend_left"><img src="../images/apic01.png"></div>
+	    			<div class="mmend_right">
+	    				<p class="mmend_num"><span>302</span>积分</p>
+	    				<p class="mmend_title shop_heig">百草味 肉干肉脯 白芝麻猪</p>
+	    				<p class="mmend_name">奶油味夏威夷果200g/袋</p>
+	    			</div>
+	    		</li>
+	    	</ul>
+	    	<div class="pro_box">
+	    		<h2>规格</h2>
+	    		<p class="pro_btn pro_curr">白芝麻猪肉脯 100g/袋</p>
+	    	</div>
+	    	<div class="pro_box">
+	    		<h2>包装</h2>
+	    		<p class="pro_btn pro_curr">精装</p>
+	    		<p class="pro_btn">简装</p>
+	    	</div>
+	    	<div class="pro_bom clearfix">
+	    		<h2>数量</h2>
+	    		<div class="pro_public right">
+	    			<p class="pro_minus"><img src="../images/jian.png"></p>
+	    			<input type="text" name="" value="1" />
+	    			<p class="pro_add"><img src="../images/add.png"></p>
+	    		</div>
+	    	</div>
+	    	<div class="property_btn">确定</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript" src="../js/swiper.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 点击显示选择属性弹层
+		$('.detail_bgco').click(function(){
+			$('.pro_bg').show();
+		})
+		$('.property .prop_close').on('click', function(){
+			$('.pro_bg').hide();
+		})
+		// 点击确定跳到支付订单页
+		$('.property_btn').on('click', function(){
+			window.location.href = 'affirm_order.html'
+		})
+		// 跳转购物车
+		$('.foot_cart').click(function() {
+			window.location.href = 'shopping.html'
+		});
+	})
+</script>
+</body>
+</html>

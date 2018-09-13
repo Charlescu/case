@@ -1,0 +1,382 @@
+@charset "UTF-8";
+
+html,body{ width: 100%; font-family:'Microsoft Yahei', Arial, Helvetica, sans-serif; overflow-x:hidden;}
+input,button,textarea{ font-family:'Microsoft Yahei', Arial, Helvetica, sans-serif;}
+html{ font-size:62.5%; }
+body{ font-size: 1.2rem; }
+
+input::-webkit-cancel-button {display: none;}
+input::-ms-clear {display: none;}
+input[type=text]:focus{ box-shadow: none;}
+
+*{ box-sizing:border-box; outline:none; -webkit-tap-highlight-color:rgba(255,0,0,0);}
+img{ display: block; max-width: 100%;}
+
+.warp{ width: 7.5rem;}
+
+/* 我的积分 */
+.integra_total{
+  width: 7.5rem;
+  height: 5.74rem;
+  text-align: center;
+  background: url('../images/cbg01@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.integra_total .total_num{
+  padding-top: 1.82rem;
+  color: #323333;
+  font-size: 1.1rem;
+}
+.integra_total .total_txt1{
+  color: #323333;
+  font-size: 0.28rem;
+}
+.integra_box{
+  font-size: 0;
+  padding: 0.34rem;
+  margin: 0.18rem 0;
+  background: #fff;
+}
+.integra_box .total_txt2{
+  display: inline-block;
+  color: #323333;
+  font-size: 0.32rem;
+}
+.total_else{
+  padding-left: 0.33rem;
+  color: #999999;
+  font-size: 0.26rem;
+}
+.total_btn{
+  width: 6.86rem;
+  height: 0.88rem;
+  color: #1A1A1A;
+  font-size: 0.32rem;
+  text-align: center;
+  line-height: 0.88rem;
+  border-radius: 0.44rem;
+  margin: 0.62rem auto;
+  background:linear-gradient(180deg,rgba(253,223,58,1),rgba(251,224,56,1));
+}
+/* 积分提现弹窗 */
+.total_fn{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 1, 0.75);
+}
+.total_page{
+  width: 5.2rem;
+  height: 8.5rem;
+  margin: 1.46rem auto 0;
+  background: url('../images/cbg02@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.total_page h2{
+  color: #323333;
+  font-size: 0.32rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.7rem;
+  padding-bottom: 0.98rem;
+}
+.total_li{
+  font-size: 0;
+  padding-left: 0.58rem;
+  padding-bottom: 0.36rem;
+}
+.total_li p{
+  padding-bottom: 0.18rem;
+  color: #323333;
+  font-size: 0.28rem;
+}
+.total_li input{
+  width: 4rem;
+  height: 0.72rem;
+  color: #323333;
+  font-size: 0.28rem;
+  padding-left: 0.18rem;
+  border: solid 1px #000;
+  background: none;
+  border-radius: 0.05rem;
+}
+.fn_btn{
+  width: 3.6rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #1A1A1A;
+  font-size: 0.32rem;
+  border-radius: 0.44rem;
+  background:linear-gradient(180deg,rgba(248,199,11,1),rgba(254,230,0,1));
+  box-shadow:0px 15px 30px 0px rgba(40,40,40,0.16);
+}
+.total_page .icon-quxiao{
+  padding-left: 2.2rem;
+  color: #fff;
+  font-size: 0.56rem;
+}
+/* 待兑换分值 */
+.convert_worch{
+  font-size: 0;
+  background: #fff;
+}
+.convert_worch li{
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0 0.36rem;
+  border-bottom: solid 1px #EBEBEB;
+}
+.convert_worch p{
+  display: inline-block;
+  color: #000;
+  font-size: 0.3rem;
+}
+.worch_box{
+  padding: 0.33rem;
+  margin-top: 0.2rem;
+  background: #fff;
+}
+.worch_box h2{
+  padding-bottom: 0.32rem;
+  font-size: 0.3rem;
+}
+.worch_box p{
+  color: #333333;
+  font-size: 0.28rem;
+  text-indent:2em;
+  line-height: 0.48rem;
+}
+/* 我的团队 */
+.team_box{
+  padding: 0.4rem 0.32rem;
+}
+.team_box h2{
+  font-size: 0.36rem;
+  font-weight: bold;
+}
+.team_box ul{
+  font-size: 0;
+}
+.team_box li{
+  padding: 0.38rem 0;
+  border-bottom: solid 1px #EBEBEB;
+}
+.team_box li img{
+  display: inline-block;
+  width: 0.88rem;
+  height: 0.88rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.team_box li p{
+  display: inline-block;
+  padding-left: 0.26rem;
+  font-size: 0.3rem;
+  vertical-align: middle;
+}
+.team_box li .team_date{
+  padding-top: 0.18rem;
+  color: #666666;
+}
+/* 积分说明 */
+.explain_head{
+  height: 1.02rem;
+  line-height: 1.02rem;
+  padding: 0 0.32rem;
+  font-size: 0.3rem;
+  background:#F5F6FA;
+}
+.plain_txt{
+  padding: 0.36rem 0.3rem;
+  font-size: 0.3rem;
+}
+/* 关于我们 */
+.about_page{}
+.about_page img{
+  display: block;
+  width: 7.5rem;
+  margin-bottom: 0.23rem;
+}
+.about_page p{
+  margin: 0.1rem 0.32rem;
+  color: #333333;
+  font-size: 0.28rem;
+  text-indent:2em;
+  line-height: 0.48rem;
+}
+.about_box{
+  border-top: solid 0.2rem #F5F6FA;
+}
+.about_box h2{
+  padding: 0.36rem 0.33rem;
+  color: #333333;
+  font-size: 0.32rem;
+  font-weight: bold;
+  border-bottom: solid 1px #f5f5f5;
+}
+.about_list{
+  font-size: 0;
+  margin: 0 0.32rem;
+  padding: 0.3rem 0;
+  border-bottom: solid 1px #f5f5f5;
+}
+.about_list p{
+  color: #333333;
+}
+.about_list .about_name{
+  display: inline-block;
+  padding-bottom: 0.18rem;
+  font-size: 0.32rem;
+  font-weight: bold;
+}
+.about_list .about_km{
+  display: inline-block;
+  font-size: 0.32rem;
+}
+.about_list .about_txt{
+  padding-bottom: 0.1rem;
+  font-size: 0.28rem;
+}
+.about_right{
+  font-size: 0;
+  text-align: right;
+  padding: 0.3rem 0.36rem;
+}
+.about_right .about_btn{
+  display: inline-block;
+  width: 2.2rem;
+  height: 0.8rem;
+  text-align: center;
+  line-height: 0.8rem;
+  font-size: 0.32rem;
+  border-radius: 0.4rem;
+  margin-left: 0.32rem;
+}
+.about_right .about_fen1{
+  color: #333333;
+  border: solid 1px #000;
+}
+.about_right .about_fen2{
+  color: #fff;
+  background:linear-gradient(to right,rgba(73,90,255,1),rgba(10,207,254,1));
+}
+/* 会员卡 */
+.member_warp{
+  position: relative;
+  width: 6.87rem;
+  height: 4.12rem;
+  margin: 0 auto;
+}
+.member_img1{
+  background: url('../images/vip01@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.member_img2{
+  background: url('../images/vip02@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.member_img3{
+  background: url('../images/vip03@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.member_img4{
+  background: url('../images/vip04@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.member_img5{
+  background: url('../images/vip05@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.member_name{
+  position: absolute;
+  top: 0.55rem;
+  left: 0.6rem;
+  color: #fff;
+  font-size: 0.36rem;
+}
+.member_money{
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.52rem;
+  color: #FEFEFE;
+  font-size: 0.26rem;
+}
+.member_money span{
+  font-size: 0.91rem;
+  font-weight: bold;
+}
+.member_page{
+  width: 5.94rem;
+  height: 3.21rem;
+  margin: 0.6rem auto 0;
+  padding-top: 0.68rem;
+  background: url('../images/huiyuanka@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.member_page img{
+  width: 1.52rem;
+  height: 1.52rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: solid 0.05rem #CFB98B;
+}
+/* 分享有礼 */
+.share_box{
+  position: absolute;
+  /*top: 0.88rem;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 7.5rem;
+  height: 100%;
+  background: url('../images/share@2x.png') no-repeat;
+  background-size: 100% 100%;
+}
+.share_btn{
+  position: absolute;
+  bottom: 0.68rem;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 3.6rem;
+  height: 0.8rem;
+  margin: 0 auto;
+}
+/* 立即加入 */
+.join_box{
+  position: absolute;
+  top: 0.88rem;
+  left: 0;
+  right: 0;
+  width: 7.5rem;
+  height: 93.5%;
+  background: url('../images/join.png') no-repeat;
+  background-size: 100% 100%;
+}
+.join_code{
+  width: 3.76rem;
+  height: 3.76rem;
+  margin: 4.26rem auto 0;
+}
+.join_txt{
+  padding-top: 0.3rem;
+  color: #fff;
+  font-size: 0.36rem;
+  text-align: center;
+}
+/* 分享弹层 */
+.share_fn{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 7.5rem;
+  height: 100%;
+  background: url('../images/bg@2x.png') no-repeat;
+  background-size: 100% 100%
+}

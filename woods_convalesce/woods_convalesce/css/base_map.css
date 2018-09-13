@@ -1,0 +1,77 @@
+.container {
+
+}
+
+.background_img_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+}
+
+.content_title {
+    font-size: 0.36rem;
+    color: #00A113;
+    position: absolute;
+    top: 0.93rem;
+    left: 0.79rem;
+}
+
+.content_hint {
+    font-size: 0.3rem;
+    color: #666666;
+    position: absolute;
+    top: 1.58rem;
+    left: 0.79rem;
+}
+
+.region {
+    width: 1.53rem;
+    height: 0.55rem;
+    font-size: 0.28rem;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(52, 178, 70, 1);
+    border-radius: 0.05rem;
+    box-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.xibei {
+    top: 4.06rem;
+    left: 1.1rem;
+}
+
+.huabei {
+    top: 4.44rem;
+    left: 3.57rem;
+}
+
+.dongbei {
+    top: 2.73rem;
+    left: 5.53rem;
+}
+
+.huadong {
+    top: 6.68rem;
+    left: 5.45rem;
+}
+
+.xinan {
+    top: 8.9rem;
+    left: 0.9rem;
+}
+
+.huanan {
+    top: 10rem;
+    left: 3rem;
+}
+
+.huazhong {
+    top: 9.3rem;
+    left: 5.37rem;
+}
+
+

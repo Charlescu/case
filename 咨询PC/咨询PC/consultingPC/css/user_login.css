@@ -1,0 +1,149 @@
+/* 页面主体 */
+.main_box {
+    height: 741px;
+    background: url("../images/login_bg.png") no-repeat;
+    overflow: hidden;
+}
+
+.main {
+    width: 1200px;
+    height: 741px;
+
+    margin: 0 auto;
+
+}
+
+.content {
+    width: 474px;
+    background-color: #fff;
+    margin-top: 130px;
+}
+
+.content_box {
+    width: 393px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F1A33B;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.content_item {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 27px;
+}
+
+.content_input {
+    width: 393px;
+    height: 54px;
+    background: rgba(247, 247, 247, 1);
+    line-height: 54px;
+    margin-top: 15px;
+}
+
+.content_input input {
+    border: 0;
+    outline: none;
+    background: rgba(247, 247, 247, 1);
+    margin-left: 21px;
+}
+
+.get_code_btn {
+    float: right;
+    margin-right: 21px;
+}
+
+.register_btn {
+    width: 393px;
+    height: 54px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 54px;
+    text-align: center;
+    background: rgba(241, 163, 59, 1);
+    border-radius: 3px;
+    margin-top: 56px;
+}
+
+.hint_info {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 47px;
+}
+
+.hint {
+    color: #F1A33B;
+}
+
+.bottom_box {
+    margin-top: 88px;
+}
+
+/* 底部 */
+.footer {
+    height: 250px;
+    background-color: #333333;
+}
+
+.footer_box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_left {
+    line-height: 250px;
+}
+
+.footer_icon, .footer_content_item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer_content {
+    display: inline-block;
+    margin-left: 59px;
+    vertical-align: middle;
+}
+
+.footer_icon {
+    margin-right: 76px;
+    text-align: center;
+}
+
+.footer_icon img {
+    vertical-align: middle;
+}
+
+.footer_content_item {
+    margin-right: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_content {
+    width: 70px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    padding-top: 73px;
+}
+
+.footer_img {
+    width: 70px;
+}
+
+.footer_img img {
+    width: 100%;
+}
+
+.footer_hint {
+    margin-top: 21px;
+}
+

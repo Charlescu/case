@@ -1,0 +1,108 @@
+.banner{
+    width: 100%;
+    height: 3.4rem;
+}
+.banner .swiper-pagination{
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 0.49rem;
+}
+.banner .swiper-pagination-bullet{
+    width: 0.15rem;
+    height: 0.15rem;
+}
+.content_list{
+    padding:0 0.25rem ;
+    position: relative;
+    z-index: 5;
+    margin-top: -0.49rem;
+}
+.content_item{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.25rem;
+    border-radius: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.4rem;
+    box-shadow:10px 0px 25px rgba(0,0,0,0.06);
+}
+.character_content{
+    font-size: 0.28rem;
+}
+.font_green{
+    color: #34B246;
+}
+.font_orange{
+    color: #E4904B;
+}
+.appointment_btn{
+    width:3.8rem;
+    height: 0.64rem;
+    font-size: 0.3rem;
+    color: #34B246;
+    border:1px solid #34B246;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 0.64rem;
+    margin-top: 0.45rem;
+}
+.icon-huodongdianji{
+    font-size: 0.26rem;
+    color: #34B246;
+    opacity: 0.5;
+    margin-right: 0.16rem;
+}
+.icon-right{
+    color: #34B246;
+    margin-left: 0.18rem;
+}
+.content_item1{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.25rem;
+    border-radius: 0.1rem;
+    box-shadow:10px 0px 25px rgba(0,0,0,0.06);
+    padding:0.5rem  0.46rem ;
+}
+.item_list{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 0.01rem solid #E4E4E4;
+    margin-top: 0.4rem;
+}
+.last{
+    border: 0;
+}
+.company_name{
+    width: 100%;
+    font-size: 0.26rem;
+    color: #34B246;
+}
+.print_company_name{
+    width: 100%;
+    padding-left: 0.2rem;
+}
+.print_company_name input{
+    width: 100%;
+    font-size: 0.3rem;
+    border: none;
+}
+
+
+
+
+.submit_btn{
+    width:93%;
+    margin: 0 auto;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.88rem;
+    border-radius: 0.1rem;
+    background-color: #34B246;
+    box-shadow:8px 0px 10px rgba(52,178,70,0.5);
+    margin-bottom: 0.25rem;
+}

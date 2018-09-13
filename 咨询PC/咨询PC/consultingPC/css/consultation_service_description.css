@@ -1,0 +1,36 @@
+body{
+    background-color: #F8F8F8;
+}
+.main_box{
+    width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 70px 84px;
+}
+
+.main_title{
+    font-size: 20px;
+    color: #F1A33B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main_content_box{
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    text-indent:1cm;
+}
+.main_content_item{
+    margin-bottom: 50px;
+}
+.bottom_btn{
+    width:180px;
+    height:44px;
+    background:rgba(241,163,59,1);
+    font-size:20px;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 44px;
+    margin: 0 auto;
+}

@@ -1,0 +1,106 @@
+.container {
+    padding: 0.3rem 0.25rem;
+}
+
+.content_item {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 0.1rem;
+    box-shadow: 0.1rem 0rem 0.25rem rgba(0, 0, 0, 0.06);
+    padding: 0.4rem 0.39rem;
+
+}
+
+.item_list {
+    width: 100%;
+    font-size: 0.3rem;
+    color: #444;
+    background: rgba(248, 248, 248, 1);
+    display: flex;
+    padding: 0.35rem;
+    margin-bottom: 0.32rem;
+    border-radius: 0.1rem;
+}
+
+.input_box {
+    font-size: 0.3rem;
+    color: #999;
+    border: none;
+    background-color: #F8F8F8;
+    margin-left: 0.4rem;
+    outline: none;
+}
+
+.selector_box {
+    position: relative;
+    display: flex;
+}
+
+.selector {
+    width: 4rem;
+    font-size: 0.3rem;
+    color: #999;
+    background-color: #F8F8F8;
+    border: 0;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-left: 0.39rem;
+
+}
+
+.icon-icon-test {
+    font-size: 0.2rem;
+    color: #666666;
+    position: absolute;
+    right: -0.6rem;
+    top: 0.1rem;
+}
+
+.area_box {
+    font-size: 0.3rem;
+    width: 5.5rem;
+    height: 3.8rem;
+    border: none;
+    background-color: #F8F8F8;
+
+}
+.hint_information{
+    font-size: 0.3rem;
+    color: #333;
+}
+.hint_information span{
+    color: #999;
+}
+.uoload_picture{
+    width: 2.16rem;
+    height: 2.16rem;
+    font-size: 0.3rem;
+    color: #333;
+    background: rgba(248, 248, 248, 1);
+    margin-bottom: 0.6rem;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+.icon-xiangji{
+    margin-top: 0.59rem;
+    color: #CCCCCC;
+}
+.head_portrait{
+    margin-top: 0.27rem;
+}
+
+
+.bottom_btn {
+    height: 0.88rem;
+    font-size: 0.36rem;
+    color: #fff;
+    background: rgba(52, 178, 70, 1);
+    border-radius: 0.1rem;
+    box-shadow: 0.08rem 0rem 0.2rem rgba(52, 178, 70, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem 0;
+}

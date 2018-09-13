@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>核销办理-详情</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/user_login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">核销详情</h1>
+	</header>
+	<div class="warp">
+		<!-- begin:核销详情 -->
+		<div class="cancel_detail">
+			<ul class="order_ul">
+				<li>
+					<div class="info_left"><img src="../images/apic01.png"></div>
+					<div class="info_right">
+						<p class="info_txt1">百草味 肉干肉脯 白芝麻猪脯</p>
+						<p class="info_txt2">奶油味夏威夷果200g/袋</p>
+						<p class="info_num"><span>302</span>积分</p>
+					</div>
+					<p class="info_number">X1</p>
+				</li>
+				<li>
+					<div class="info_left"><img src="../images/apic01.png"></div>
+					<div class="info_right">
+						<p class="info_txt1">三只松鼠网红零食大礼包</p>
+						<p class="info_txt2">浓香 • 甜</p>
+						<p class="info_num"><span>500</span>积分</p>
+					</div>
+					<p class="info_number">X1</p>
+				</li>
+			</ul>
+		</div>
+		<!-- begin:核销订单编号 -->
+		<div class="cancel_info">
+			<p>订单编号 <span class="cancel_num">201807123659</span></p>
+			<p>领取站点 <span class="cancel_txt1">A加油站</span></p>
+			<p>共 消 费 <span class="cancel_txt2"><em>305</em>积分</span></p>
+			<p>取货时间 <span class="cancel_date">2018年10月1日</span></p>
+		</div>
+		<div class="cancel_fied">核销</div>
+	</div>
+
+	<!-- begin:确认核销弹层 -->
+	<div class="member_fn hidden">
+		<div class="member_box">
+			<h2>确认核销</h2>
+			<p class="meber_txt1">确定核销该商品吗？</p>
+			<div class="meber_border">
+				<a class="meber_quxiao" href="###">取消</a>
+				<a class="meber_curr" href="###">确认</a>
+			</div>
+		</div>
+	</div>
+	<!-- begin:核销成功弹层 -->
+	<div class="succes_fn cancel_succes hidden">
+		<i class="iconfont icon-chenggong"></i>
+		<p>核销成功</p>
+	</div>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.cancel_fied').on('click',function(){
+			$('.member_fn').show();
+		})
+		$('.meber_quxiao').on('click',function(){
+			$('.member_fn').hide();
+		})
+	})
+</script>
+</body>
+</html>

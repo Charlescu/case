@@ -1,0 +1,203 @@
+.banner{
+    width: 100%;
+    height: 3.4rem;
+}
+.banner .swiper-pagination{
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 0.49rem;
+}
+.banner .swiper-pagination-bullet{
+    width: 0.15rem;
+    height: 0.15rem;
+}
+.content_list{
+    padding:0 0.25rem ;
+    position: relative;
+    z-index: 5;
+    margin-top: -0.49rem;
+}
+.content_item1,.content_item2{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.25rem;
+    border-radius: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.4rem;
+    box-shadow:10px 0px 25px rgba(0,0,0,0.06);
+}
+.content_item1{
+    padding: 0.39rem 0 0.53rem 0.32rem;
+}
+.content_item2{
+    padding: 0.47rem 0 0.41rem 0;
+}
+.character_content{
+    font-size: 0.28rem;
+}
+.font_green{
+    color: #34B246;
+}
+.font_orange{
+    color: #E4904B;
+}
+.appointment_btn{
+    width:3.8rem;
+    height: 0.64rem;
+    font-size: 0.3rem;
+    color: #34B246;
+    border:0.01rem solid #34B246;
+    border-radius: 0.05rem;
+    text-align: center;
+    line-height: 0.64rem;
+    margin-top: 0.45rem;
+}
+.icon-huodongdianji{
+    font-size: 0.26rem;
+    color: #34B246;
+    opacity: 0.5;
+    margin-right: 0.16rem;
+}
+.icon-icon-test{
+    color: #34B246;
+    margin-left: 0.18rem;
+}
+.content_title{
+    width: 100%;
+    font-size: 0.26rem;
+    color: #34B246;
+    margin-bottom: 0.31rem;
+}
+.content_btn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_option,.content_option1{
+    color: #fff;
+    font-size: 0.26rem;
+    text-align: center;
+    border-radius: 0.32rem;
+    background-color: #34B246;
+    margin-right: 0.25rem;
+    padding: 0.17rem;
+}
+.content_option1{
+    color: #999999;
+    background-color: #F3F3F3;
+}
+
+.regional_distribution{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 0.4rem;
+}
+.regional_distribution ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.regional_distribution li{
+    font-size: 0.26rem;
+    color: #999999;
+    margin-left: 0.23rem;
+}
+.region{
+    font-size: 0.26rem;
+    color: #34B246;
+    margin-left: 0.23rem;
+    border-right: 1px solid #E4E4E4;
+    padding-right:0.24rem;
+}
+.content_detail{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.42rem 0.3rem;
+}
+.content_detail,.content_option,.content_option1{
+    margin-bottom: 0.32rem;
+}
+
+.regional_distribution .huabei{
+    color: #F5A814;
+}
+.screening{
+    width:93%;
+    margin: 0 auto;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.88rem;
+    border-radius: 0.1rem;
+    background-color: #34B246;
+    box-shadow:0.05rem 0.1rem 0.3rem rgba(52,178,70,0.5);
+    margin-bottom: 0.25rem;
+}
+
+.mask{
+    width:100%;
+    height: 200%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    padding: 1.58rem 0.63rem;
+}
+.popup_box{
+    width:100%;
+    background-color: #fff;
+    position: relative;
+    padding: 0.71rem 0.66rem 0.7rem 0.53rem;
+}
+.icon-guanbi{
+    font-size: 0.32rem;
+    color: #999999;
+    position: absolute;
+    top: 0.25rem;
+    right:0.25rem;
+}
+.popup_title{
+    font-size: 0.34rem;
+    color: #34B246;
+    text-align: center;
+    margin-bottom: 0.48rem;
+}
+.popup_content{
+    height: 2rem;
+    font-size: 0.26rem;
+    color: #666666;
+    overflow-y: scroll;
+}
+.btn{
+    width: 100%;
+    height: 0.88rem;
+    background-color: #34B246;
+    color: #fff;
+    font-size: 0.34rem;
+    line-height: 0.88rem;
+    text-align: center;
+}
+
+
+.hint_information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.52rem;
+}
+.hint_content{
+    font-size: 0.26rem;
+    color: #666666;
+}
+.hint_content span,.icon-p{
+    color: #34B246;
+}
+.icon-p{
+    font-size: 0.3rem;
+    margin-right: 0.19rem;
+}

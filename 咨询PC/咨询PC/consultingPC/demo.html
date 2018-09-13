@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>手机号码验证</title>
+    <script>
+        function doValidate() {
+            var chineseReg = /^[\u4E00-\u9FA5]{2,4}$/;
+            if(!chineseReg.test(document.forma.name.value)) {
+                alert('用户名称有误，请重填');
+                document.forma.name.focus();
+                return false;
+            }
+            var phoneNumReg = /^1[3|4|5|7|8]\d{9}$/
+            <!--表示以1开头，第二位可能是3/4/5/7/8等的任意一个，在加上后面的\d表示数字[0-9]的9位，总共加起来11位结束。-->
+            if(!phoneNumReg.test(document.forma.phoneNum.value)) {
+                alert('手机号码有误，请重填，手机号码11位数字，目前支持前两位13、14、15、16、17、18手机号码');
+                document.forma.phoneNum.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<form action="" name="forma" onsubmit="return doValidate()">
+    用户名称：<input type="text" name="name" value="用户"><br />
+    手机号码：<input type="text" maxlength="11" name="phoneNum"><br />
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
+
+<!--
+运营商手机号段
+电信
+中国电信手机号码开头数字
+2G/3G号段（CDMA2000网络）133、153、180、181、189
+4G号段 177
+联通
+中国联通手机号码开头数字
+2G号段（GSM网络）130、131、132、155、156
+3G上网卡145
+3G号段（WCDMA网络）185、186
+4G号段 176、185[1]
+移动
+中国移动手机号码开头数字
+2G号段（GSM网络）有134x（0-8）、135、136、137、138、139、150、151、152、158、159、182、183、184。
+3G号段（TD-SCDMA网络）有157、187、188
+3G上网卡 147
+4G号段 178
+-->

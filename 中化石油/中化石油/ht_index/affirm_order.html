@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>确认订单</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/weui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/myweui.css" rel="stylesheet" type="text/css"/>
+<link href="../css/weui.min.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery-weui.css" rel="stylesheet" type="text/css">
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/order.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: #F5F6FA;">
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">确认订单</h1>
+	</header>
+	<div class="warp">
+		<!-- begin:订单信息 -->
+		<div class="order_info">
+			<h2>订单信息</h2>
+			<ul class="order_ul">
+				<li>
+					<div class="info_left"><img src="../images/apic01.png"></div>
+					<div class="info_right">
+						<p class="info_txt1">百草味 肉干肉脯 白芝麻猪脯</p>
+						<p class="info_txt2">奶油味夏威夷果200g/袋</p>
+						<p class="info_num"><span>302</span>积分</p>
+					</div>
+					<p class="info_number">X1</p>
+				</li>
+				<li>
+					<div class="info_left"><img src="../images/apic01.png"></div>
+					<div class="info_right">
+						<p class="info_txt1">三只松鼠网红零食大礼包</p>
+						<p class="info_txt2">浓香 • 甜</p>
+						<p class="info_num"><span>500</span>积分</p>
+					</div>
+					<p class="info_number">X1</p>
+				</li>
+			</ul>
+		</div>
+		<!-- begin:支付方式 -->
+		<div class="order_info">
+			<h2>支付方式</h2>
+			<ul class="order_pay">
+				<li class="clearfix">
+					<span>会员卡余额</span>
+					<div class="order_label right"><input type="radio" name="radio1" checked="checked"/><em></em></div>
+				</li>
+				<li class="clearfix">
+					<span>积分</span>
+					<div class="order_label right"><input type="radio" name="radio1"/><em></em></div>
+				</li>
+			</ul>
+		</div>
+		<!-- begin:兑换信息 -->
+		<div class="order_info">
+			<h2>兑换信息</h2>
+			<ul class="conversion">
+				<li>
+					<span>用户名称</span>
+					<input type="text" placeholder="请输入姓名">
+				</li>
+				<li>
+					<span>联系方式</span>
+					<input type="text" placeholder="请输入手机号">
+				</li>
+			</ul>
+			<div class="addres_box">
+				<p class="addres_name">收货方式</p>
+				<div class="order_label order_click one"><input type="radio" name="aradio" checked="checked"/><em></em><span>自提</span></div>
+				<div class="order_label order_click plac"><input type="radio" name="aradio"/><em></em><span>配送</span></div>
+			</div>
+			
+			<div class="addres_warp">
+				<!-- begin:自提方式 -->
+				<div class="addres_content">
+					<div class="addres_site">
+						<p class="addres_title">领取站点</p>
+						<input type="text" placeholder="请选择" readOnly="true"/>
+						<i class="iconfont icon-icon-arrDown-fill"></i>
+					</div>
+					<div class="weui-cell">
+				        <div class="weui-cell__hd"><label for="time3" class="weui-label">领取时间</label></div>
+				        <div class="weui-cell__bd">
+				          <input class="weui-input" id="time3" type="text">
+				        </div>
+				        <i class="iconfont icon-icon-arrDown-fill"></i>
+				    </div>
+				</div>
+				<!-- begin:配送方式 -->
+				<div class="addres_content hidden">
+					<ul class="conversion">
+						<li>
+							<span>收货地址</span>
+							<input type="text" placeholder="请填写收货地址">
+						</li>
+						<li>
+							<span>收 货 人</span>
+							<input type="text" placeholder="请填写收货人">
+						</li>
+						<li>
+							<span>联系方式</span>
+							<input type="text" placeholder="请填写联系方式">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="addres_else hidden">
+			<h2>备注</h2>
+			<textarea name="" placeholder="请填写备注"></textarea>
+		</div>
+		<div class="else_txt hidden">配送费说明xxxxxx </div>
+		<!-- begin:支付订单 -->
+		<div class="order_pay clearfix">
+			<p class="orser_txt1">合计：<span>800</span><em>积分</em></p>
+			<div class="order_btn right">支付订单</div>
+		</div>
+	</div>
+
+	<!-- begin:会员卡余额支付弹窗 -->
+	<div class="member_fn member_yue hidden">
+		<div class="member_box">
+			<h2>会员卡余额支付</h2>
+			<p class="meber_txt1">需支付<span>3元</span></p>
+			<div class="meber_border">
+				<a class="meber_quxiao" href="###">取消</a>
+				<a class="meber_curr" href="###">确认</a>
+			</div>
+		</div>
+	</div>
+	<!-- begin:积分支付 -->
+	<div class="member_fn member_integ hidden">
+		<div class="member_box">
+			<h2>积分支付</h2>
+			<p class="meber_txt1">需支付<span>800积分</span></p>
+			<div class="meber_border">
+				<a class="meber_quxiao" href="###">取消</a>
+				<a class="meber_curr" href="###">确认</a>
+			</div>
+		</div>
+	</div>
+	<!-- begin:提交成功弹窗 -->
+	<div class="succes_fn hidden">
+		<i class="iconfont icon-chenggong"></i>
+		<p>恭喜您，提交成功</p>
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/weui.js"></script>
+<script type="text/javascript" src="../js/myweui.js"></script>
+<script type="text/javascript" src="../js/jquery-weui.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 点击支付订单
+		$('.order_btn').on('click',function(){
+			$('.member_yue').show();
+		})
+
+		$('.addres_site').on('click', function () {
+	        weui.picker([{
+	            label: '中化石油加油站',
+	            value: 0
+	        }, {
+	            label: '中化石油加油站',
+	            value: 1
+	        }, {
+	            label: '中化石油加油站',
+	            value: 2
+	        }, {
+	            label: '中化石油加油站',
+	            value: 3
+	        }, {
+	            label: '中化石油加油站',
+	            value: 4
+	        }, {
+	            label: '中化石油加油站',
+	            value: 5
+	        },], {
+	            onChange: function (result) {
+	                console.log(result);
+	            },
+	            onConfirm: function (result) {
+	                $('.addres_site input').val(result[0].label)
+
+	            }
+	        });
+	    });
+	})
+
+	$(".weui-cell .icon-icon-arrDown-fill,#time3").datetimePicker({
+        times: function () {
+          return [
+            {
+              values: ['上午', '下午']
+            }
+          ];
+        },
+        value: '2018-10-15 上午',
+        onChange: function (picker, values, displayValues) {
+          console.log(values);
+        }
+    });
+</script>
+</body>
+</html>

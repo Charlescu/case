@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "微软雅黑", "Microsoft YaHei";
+            font-size: 14px;
+            line-height: 24px;
+            color: #666;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        i {
+            font-style: normal;
+        }
+
+        .t_grey, .t_grey a, a.t_grey {
+            color: #999;
+        }
+
+        .t_green, .t_green a, a.t_green {
+            color: #6bc30d;
+        }
+
+        /*暂停/启用  按钮*/
+        .btn {
+            display: block;
+            width: 90px;
+            height: 40px;
+            border: #e1e1e1 solid 1px;
+            border-radius: 20px;
+            cursor: pointer;
+            position: relative;
+            top: 20px;
+            left: 100px;
+        }
+
+        /*暂停/启用  文字*/
+        .btn .t_green, .btn .t_grey {
+            display: block;
+            width: 50%;
+            height: 40px;
+            line-height: 40px;
+            float: left;
+        }
+
+        .btn .t_green {
+            text-align: right;
+        }
+
+        .btn .t_grey {
+            text-align: left;
+        }
+
+        /*暂停/启用  是否启用状态圆圈*/
+        .btn_bg {
+            display: block;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            position: absolute;
+            top: 1px;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -ms-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear;
+        }
+
+        /*不同状态下的相应样式*/
+        /*暂停/启用  文字*/
+        .btn_on .t_green {
+            opacity: 0;
+        }
+
+        .btn_off .t_grey {
+            opacity: 0;
+        }
+
+        /*暂停/启用  是否启用状态圆圈*/
+        .btn_on .btn_bg {
+            left: 1px;
+            background-color: #6bc30d;
+        }
+
+        .btn_off .btn_bg {
+            left: 51px;
+            background-color: #c0c0c0;
+        }
+    </style>
+</head>
+<body>
+
+<span class="btn btn_off"><!--btn_on 进行中样式  btn_off 已暂停样式-->
+    <i class="t_green">启用</i><i class="t_grey">暂停</i>
+    <i class="btn_bg"></i>
+</span>
+
+<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+<script>
+    //暂停/启用切换
+    $('.btn').click(function () {
+        $(this).toggleClass('btn_on').toggleClass('btn_off');
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+.main {
+    height: 460px;
+    background: url("../images/bg.png") no-repeat;
+    background-size: 100% 100%;
+    min-width: 1200px;
+}
+
+.main_box {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main_content_box {
+    width: 814px;
+    margin: 0 auto;
+    margin-top: 137px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.main_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 58px;
+}
+
+.navigation_box {
+    font-size: 14px;
+    color: #fff;
+    float: right;
+    margin-top: 107px;
+}
+
+.main3_box {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.service_select_box {
+    margin-bottom: 98px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.service_title_box {
+    width: 505px;
+    height: 161px;
+    font-size: 40px;
+    color: rgba(248, 248, 248, 1);
+    padding-top: 60px;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+.service_title_box2 {
+    font-size: 79px;
+    left: 50%;
+    transform: translateX(-250px);
+}
+
+.service_title_box:after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: #333333;
+    position: absolute;
+    bottom: 0;
+    left: 53%;
+    transform: translateX(-50px);
+}
+
+/*.service_title_box2:after {*/
+    /*content: "";*/
+    /*width: 50px;*/
+    /*height: 4px;*/
+    /*background-color: #333333;*/
+    /*position: absolute;*/
+    /*bottom: 40px;*/
+    /*left: 53%;*/
+    /*transform: translateX(-50px);*/
+/*}*/
+
+.service_title {
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-60px);
+    text-align: center;
+}
+/*.service_title2{*/
+    /*font-size: 24px;*/
+    /*color: rgba(51, 51, 51, 1);*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*top: 10px;*/
+    /*left: 50%;*/
+    /*transform: translateX(-60px);*/
+    /*text-align: center;*/
+/*}*/
+.service_hint2 {
+    font-size: 16px;
+    color: #999999;
+    position: absolute;
+    z-index: 2;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-70px);
+    text-align: center;
+}
+
+.service_item {
+    padding: 0 56px 56px 0;
+}
+
+.service_item_box {
+    width: 28%;
+    margin: 0 0 81px 56px;
+    float: left;
+}
+
+
+.service_item_title {
+    width: 100%;
+    height: 101px;
+    background: rgba(51, 51, 51, 1);
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 101px;
+}
+
+.service_detail {
+    padding: 57px 42px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 4;
+}
+
+.return_btn {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-30px);
+    z-index: 5;
+}
+
+.return_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.money_box {
+    text-align: center;
+}
+
+.money {
+    font-size: 30px;
+    color: #F1A33B;
+}
+
+.discount_money {
+    font-size: 16px;
+    color: #BBBBBB;
+    text-decoration: line-through;
+    line-height: 1;
+}
+
+.service_hint {
+    font-size: 18px;
+    color: #0B1623;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    line-height: 1;
+}
+
+.service_content {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+}
+
+
+/*   简历服务   */
+
+
+.service_title_box2 {
+    width: 610px;
+    font-size: 79px;
+    color: rgba(248, 248, 248, 1);
+    position: relative;
+    z-index: 1;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.service_title2 {
+    font-size: 24px;
+    color: rgba(51, 51, 51, 1);
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-60px);
+    text-align: center;
+}
+
+.service_title_box2:after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: #333333;
+    position: absolute;
+    bottom: 5px;
+    left: 53%;
+    transform: translateX(-60px);
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的积分</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/integral.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: #F5F6FA">
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">我的积分</h1>
+	</header>
+	<div class="warp">
+		<div class="integra_total">
+			<p class="total_num">1000</p>
+			<p class="total_txt1">积分余额</p>
+		</div>
+		<div class="integra_box clearfix">
+			<p class="total_txt2">待兑换分值</p>
+			<i class="iconfont icon-common-jinru-copy right"></i>
+		</div>
+		<p class="total_else">备注：只有满1000积分才能申请提现</p>
+
+		<div class="total_btn">提现</div>
+	</div>
+
+	<!-- begin:积分提现弹窗 -->
+	<div class="total_fn hidden">
+		<div class="total_page">
+			<h2>积分提现</h2>
+			<div class="total_li">
+				<p>选择加油站点</p>
+				<input type="text" placeholder="A站点">
+			</div>
+			<div class="total_li">
+				<p>填写提现金额</p>
+				<input type="text" placeholder="最高可提现200元">
+			</div>
+			<div class="total_li">
+				<p>提现时间</p>
+				<input type="text" placeholder="2018/8/13">
+			</div>
+			<div class="fn_btn">确认提现</div>
+			<i class="iconfont icon-quxiao"></i>
+		</div>
+	</div>
+	<!-- begin:积分不足弹窗 -->
+	<div class="insufficient hidden">抱歉，积分不足，无法提现</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 跳转待兑换分值页面
+		$('.integra_box').click(function(){
+			window.location.href = 'my_integral_convert.html';
+		})
+		// 弹出确认提现弹层
+		$('.total_btn').click(function(){
+			$('.total_fn').show();
+		})
+		$('.total_fn .icon-quxiao').click(function(){
+			$('.total_fn').hide();
+		})
+	})
+</script>
+</body>
+</html>

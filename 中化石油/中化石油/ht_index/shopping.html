@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>购物车</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/petroleum.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: #F5F6FA">
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">购物车</h1>
+	</header>
+	<div class="warp">
+		<!-- begin:购物车为空 -->
+		<div class="cart_none hidden">
+			<p>您的购物车还没有商品</p>
+			<a href="###">去逛逛</a>
+		</div>
+		<!-- begin:购物车有商品 -->
+		<div class="shopp">
+			<!-- begin:购物车列表 -->
+			<p class="shopp_edit shopp_compile">编辑</p>
+			<p class="shopp_edit shopp_succes hidden">完成</p>
+			<ul>
+				<li>
+					<div class="shopp_label"><input type="checkbox" name="checkbox" checked="checked"/><em></em></div>
+					<div class="shopp_right"><img src="../images/apic01.png"/></div>
+					<div class="shopp_left">
+						<p class="shopp_txt1">百草味 肉干肉脯 白芝麻猪</p>
+						<p class="shopp_txt2">奶油味夏威夷果</p>
+						<p class="shopp_txt2">200g/袋</p>
+						<p class="shopp_num">302积分</p>
+					</div>
+					<div class="shopp_spinner">
+						<div class="pro_public right">
+			    			<p class="pro_minus"><img src="../images/jian.png"></p>
+			    			<input type="text" name="" value="1" />
+			    			<p class="pro_add"><img src="../images/add.png"></p>
+			    		</div>
+					</div>
+				</li>
+				<li>
+					<div class="shopp_label"><input type="checkbox" name="checkbox"/><em></em></div>
+					<div class="shopp_right"><img src="../images/apic01.png"/></div>
+					<div class="shopp_left">
+						<p class="shopp_txt1">百草味 肉干肉脯 白芝麻猪</p>
+						<p class="shopp_txt2">奶油味夏威夷果</p>
+						<p class="shopp_txt2">200g/袋</p>
+						<p class="shopp_num">302积分</p>
+					</div>
+					<div class="shopp_spinner">
+						<div class="pro_public right">
+			    			<p class="pro_minus"><img src="../images/jian.png"></p>
+			    			<input type="text" name="" value="1" />
+			    			<p class="pro_add"><img src="../images/add.png"></p>
+			    		</div>
+					</div>
+				</li>
+				<li>
+					<div class="shopp_label"><input type="checkbox" name="checkbox"/><em></em></div>
+					<div class="shopp_right"><img src="../images/apic01.png"/></div>
+					<div class="shopp_left">
+						<p class="shopp_txt1">百草味 肉干肉脯 白芝麻猪</p>
+						<p class="shopp_txt2">奶油味夏威夷果</p>
+						<p class="shopp_txt2">200g/袋</p>
+						<p class="shopp_num">302积分</p>
+					</div>
+					<div class="shopp_spinner">
+						<div class="pro_public right">
+			    			<p class="pro_minus"><img src="../images/jian.png"></p>
+			    			<input type="text" name="" value="1" />
+			    			<p class="pro_add"><img src="../images/add.png"></p>
+			    		</div>
+					</div>
+				</li>
+			</ul>
+			<!-- begin：全选  立即兑换 -->
+			<div class="check_all">
+		    	<div class="select_all"><input type="checkbox" name="selectAll"/><em>全选</em></div>
+		    	<div class="check_compile right">
+		    		<p class="check_num">合计：<span>1600积分</span></p>
+		    		<a class="check_btn right" href="###">立即兑换</a>
+		    	</div>
+		    	
+		    	<div class="check_delete right" style="display: none;">删除</div>
+		    </div>
+		</div>
+	    <!-- begin：公共底部 -->
+	    <div class="footer">
+	    	<ul>
+	    		<li><a href="index.html"><em class="footer_icon1"></em>首页</a></li>
+	    		<li><a href="classify.html"><em class="footer_icon2"></em>分类</a></li>
+	    		<li class="footer_curr"><a href="###"><em class="footer_icon3"></em>购物车</a></li>
+	    		<li><a href="../ht_center/center.html"><em class="footer_icon4"></em>会员中心</a></li>
+	    	</ul>
+	    </div>
+	    <!-- end：公共底部 -->
+	</div>
+
+	<!-- begin:确认删除弹层 -->
+	<div class="member_fn hidden">
+		<div class="member_box">
+			<h2>确认删除</h2>
+			<p class="meber_txt1">确定删除该商品吗？</p>
+			<div class="meber_border">
+				<a class="meber_quxiao" href="###">取消</a>
+				<a class="meber_curr" href="###">确认</a>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 点击编辑切换状态
+		$('.shopp_compile').on('click', function(){
+			$('.shopp_compile').hide();
+			$('.shopp_succes').show();
+			$('.check_compile').hide();
+			$('.check_delete').show();
+		})
+		$('.shopp_succes').on('click',function(){
+			$('.shopp_succes').hide();
+			$('.shopp_compile').show();
+			$('.check_delete').hide();
+			$('.check_compile').show();
+		})
+		// 点击立即兑换跳转到支付订单页
+		$('.check_btn').on('click',function(){
+			window.location.href = 'affirm_order.html'
+		})
+		// 点击删除出现弹层
+		$('.check_delete').on('click', function(){
+			$('.member_fn').show();
+		})
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="46a0eec5-f777-48a4-99ca-1b42549382d8" name="服务器6" url="http://114.215.223.17">
+        <fileTransfer host="114.215.223.17" port="9001" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="9001" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>优惠卷</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_750594_itt4qc4xfcg.css" />
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<link href="../css/center.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: #F5F6FA">
+	<header class="mui_bar">
+		<i class="iconfont icon-common-jinru-copy"></i>
+		<h1 class="mui_title">优惠卷</h1>
+	</header>
+	<div class="warp">
+		<div class="voucher">
+			<ul>
+				<li class="vou_curr">代金券</li>
+				<li>礼品券</li>
+			</ul>
+		</div>
+		<!-- begin:代金卷 -->
+		<div class="vou_warp">
+			<!-- begin:切换列表第一层 -->
+			<div class="vou_view">
+				<ul class="view_ul">
+					<li class="view_curr"><em></em>待使用</li>
+					<li><em></em>已过期</li>
+					<li><em></em>已使用</li>
+				</ul>
+				<div class="view_warp">
+					<!-- begin:切换列表第二层 -->
+					<div class="view_list">
+						<div class="view_box">
+							<div class="view_left">
+								<p class="view_txt1">优惠券</p>
+								<p class="view_txt2">￥<span>500</span></p>
+								<p class="view_txt3">待使用</p>
+							</div>
+							<div class="view_right">
+								<p class="view_txt4">仅限汽油</p>
+								<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+							</div>
+						</div>
+					</div>
+					<!-- begin:切换列表第二层 -->
+					<div class="view_list hidden">
+						<div class="view_box">
+							<div class="view_left view_img2">
+								<p class="view_txt1">优惠券</p>
+								<p class="view_txt2">￥<span>500</span></p>
+								<p class="view_txt3">已过期</p>
+							</div>
+							<div class="view_right">
+								<p class="view_txt4">仅限汽油</p>
+								<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+							</div>
+						</div>
+					</div>
+					<!-- begin:切换列表第二层 -->
+					<div class="view_list hidden">
+						<div class="view_box">
+							<div class="view_left view_img3">
+								<p class="view_txt1">优惠券</p>
+								<p class="view_txt2">￥<span>500</span></p>
+								<p class="view_txt3">已过期</p>
+							</div>
+							<div class="view_right">
+								<p class="view_txt4">仅限汽油</p>
+								<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- begin:切换列表第一层 -->
+			<div class="vou_view hidden">
+				<ul class="view_ul">
+					<li class="view_curr"><em></em>待使用</li>
+					<li><em></em>已过期</li>
+					<li><em></em>已使用</li>
+				</ul>
+				<div class="view_warp">
+					<!-- begin:切换列表第二层 -->
+					<div class="view_list">
+						<div class="view_box view_click">
+							<div class="view_apic"><img src="../images/apic01.png"></div>
+							<div class="view_right">
+								<p class="view_txt4">礼品券</p>
+								<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+							</div>
+						</div>
+					</div>
+					<!-- begin:切换列表第二层 -->
+					<div class="view_list hidden">
+						<div class="view_box">
+							<div class="view_apic view_position">
+								<img src="../images/apic01.png">
+								<span>已过期</span>
+							</div>
+							<div class="view_right">
+								<p class="view_txt4">礼品券</p>
+								<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+							</div>
+						</div>
+					</div>
+					<!-- begin:切换列表第二层 -->
+					<div class="view_list hidden">
+						<div class="view_box">
+							<div class="view_apic view_position">
+								<img src="../images/apic01.png">
+								<span>已使用</span>
+							</div>
+							<div class="view_right">
+								<p class="view_txt4">礼品券</p>
+								<p class="view_date">有效期：2018.18.01-2018.08.30</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../js/base.js"></script>
+<script type="text/javascript" src="../js/shopping.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//礼品卷跳转礼品详情页
+		$('.view_click').click(function(){
+			window.location.href = 'gift_detail.html'
+		})
+	})
+</script>
+</body>
+</html>
